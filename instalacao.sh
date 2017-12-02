@@ -91,8 +91,8 @@ clear
 
 echo "Bem-vindo ao setup de instalação do inventário"
 echo
-echo "O setup instalará o inventário em seu computador."
-echo "A instalação necessitará de uma conexão com a internet."
+echo "O setup instalará e configurará o inventário por completo em seu computador."
+echo "Esta instalação necessitará de uma conexão com a internet."
 read -p "Deseja instalar o inventário em seu sistema [S/N]?: " OPCAO
 echo
 
