@@ -23,7 +23,7 @@ menu(){
 cd $dir
 
 OPCAO=$(dialog --stdout				\
-	--title 'MENU'				\
+	--title "MENU - $1"			\
 	--menu 'Escolha uma opção:'		\
 	0 0 0					\
 	"1" 'Listar'				\
