@@ -1,5 +1,10 @@
 #!/bin/bash
 
+install_dialog(){
+apt-get install dialog -y
+
+}
+
 install_local(){
 
 cd ..
@@ -24,28 +29,47 @@ touch categ.csv
 touch catg.csv
 touch gerados.sh
 touch listag
-echo "Padrão" > listag
+#echo "Padrão" > listag
 
 touch listagem
-echo "Padrão" > listagem
+#echo "Padrão" > listagem
 
 touch user_atual.sh
-echo "admin" > user_atual.sh
+#echo "admin" > user_atual.sh
 
 touch users
-echo "admin" > users
+#echo "admin" > users
 
 touch users.csv
 
 touch usersr2.csv
-echo "admin" > usersr2.csv
+#echo "admin" > usersr2.csv
 
 touch usersr.csv
+#echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7" > usersr.csv
+
+chmod 777 *
+
+echo "Padrão" > listag
+
+echo "Padrão" > listagem
+
+echo "admin" > user_atual.sh
+
+echo "admin" > users
+
+echo "admin" > usersr2.csv
+
+echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7" > users.csv
+
 echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7" > usersr.csv
+
+
 
 mkdir Padrão
 
 chmod 777 *
+
 
 cd $dir/registros/Padrão/
 
@@ -59,5 +83,6 @@ chmod 777 *
 cd $dir
 }
 
+install_dialog
 install_local
 install_arquivo
