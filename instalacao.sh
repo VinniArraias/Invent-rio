@@ -1,6 +1,7 @@
 #!/bin/bash
 
 install_dialog(){
+apt-get update
 apt-get install dialog -y
 
 }
