@@ -96,7 +96,7 @@ echo "Esta instalação necessitará de uma conexão com a internet."
 read -p "Deseja instalar o inventário em seu sistema [S/N]?: " OPCAO
 echo
 
-	if [[ $OPCAO == "s" || $OPCAO == "S"]]
+	if [[ $OPCAO == "s" || $OPCAO == "S" ]]
 		then
 			echo "O programa começará a instalação em: "
 			sleep 2
