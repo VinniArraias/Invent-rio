@@ -20,7 +20,6 @@ if [[ $1 == "" ]]
 
 
 novoa(){
-#read -p "Entre com o nome da sua nova localidade, sem espaço [0 para retornar ao menu]: " CATEGORIA
 
 CATEGORIA=$(dialog --stdout											\
 		--title 'Localidade'										\
@@ -80,7 +79,7 @@ if [[ $? == 1 ]]
 		--msgbox "Localidade ($CATEGORIA) já existe."   \
 		0 0
 
-		novoa
+		novoa $1
 	fi
 
 
