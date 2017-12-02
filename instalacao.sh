@@ -84,6 +84,54 @@ chmod 777 *
 cd $dir
 }
 
+
+info(){
+
+clear
+
+echo "Bem-vindo ao setup de instalação do inventário"
+echo
+echo "O setup instalará o inventário em seu computador."
+echo "A instalação necessitará de uma conexão com a internet."
+read -p "Deseja instalar o inventário em seu sistema [S/N]?: " OPCAO
+echo
+
+	if [[ $OPCAO == "s" || $OPCAO == "S"]]
+		then
+			echo "O programa começará a instalação em: "
+			sleep 2
+
+			echo "5 segundos..."
+			sleep 1
+			echo "4 segundos..."
+			sleep 1
+			echo "3 segundos..."
+			sleep 1
+			echo "2 segundos..."
+			sleep 1
+			echo "1 segundo..."
+			sleep 1
+			echo
+			sleep 2
+			clear
+
+	elif [[ $OPCAO == "n" || $OPCAO == "N" ]]
+		then
+			clear
+			echo "Instalação cancelada"
+			exit 0
+
+	else
+		clear
+		echo "Opção inválida!"
+		read -p "Pressione [enter] para continuar" ENTER
+		info
+fi
+
+
+}
+
+info
 install_dialog
 install_local
 install_arquivo
