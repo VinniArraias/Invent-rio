@@ -82,6 +82,13 @@ touch Padrão.csv
 
 chmod 777 *
 cd $dir
+
+clear
+
+echo "A instalação foi concluída com sucesso!"
+echo
+echo "Para iniciar o inventário, digite Inventario e pressione enter."
+echo "Obrigado por confiar em nossa equipe!"
 }
 
 
