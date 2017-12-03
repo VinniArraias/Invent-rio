@@ -71,11 +71,20 @@ if [[ $NOME == "" ]]
                 then
 
                         dialog                                  \
-                                --title 'Inválido'              \
+                                --title 'Erro'              \
                                  --msgbox 'Nome inválido'        \
                                 0 0
 
                         opcao $1
+fi
+
+
+if [[ $SENHA == "" ]]
+		then
+			dialog					\
+				--title 'Erro'			\
+				--msgbox 'Senha inv=alida'	\
+				0 0
 fi
 
  
@@ -119,8 +128,6 @@ USER=$(echo $USERx | cut -d";" -f1)
  
 echo $USER >> users
  
-#echo "Usuário cadastrado com sucesso!"
- #read -p "Pressione [enter] para continuar" ENTER
  
  dialog                                                          \
         --title 'Sucesso!'                                      \
