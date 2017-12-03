@@ -80,9 +80,9 @@ if [[ $? == "1" ]]
                         #echo "Usuário inválido!"
                          #read -p "Pressione [enter] para continuar" ENTER
 
-                       dialog                                                  \
-                                 --title 'Inválido'                              \
- --msgbox 'Usuário inválido.'                    \
+                       dialog                                                    \
+                                 --title 'Erro'	                                 \
+ 				 --msgbox 'Usuário inválido.'                    \
                                 0 0
 
                         opcao $1
@@ -109,7 +109,7 @@ grep "$USUARIO" users
          if [[ $? == 1 ]]
                  then
                          dialog                                                  \
-                                --title 'Inválido'                              \
+                                --title 'Erro'                              \
                                  --msgbox "Este usuário ($USUARIO) não existe."  \
                                  0 0
  
@@ -145,10 +145,8 @@ opcao $1
 			source menu.sh $1
 
 	else
-		#echo "Opção inválida!"
-		#read -p "Pressione [enter] para voltar" ENTER
 		dialog							\
-		--title 'Inválido'					\
+		--title 'Erro'					\
 		--msgbox 'Opção inválida!'				\
 		0 0
 fi
