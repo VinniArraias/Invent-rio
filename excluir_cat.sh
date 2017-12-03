@@ -64,7 +64,7 @@ CATEGORIAA=$1
 
 cd $dir/registros/
 
-verificacao $CATEGORIA
+#verificacao $CATEGORIA
 
 rm -rf $CATEGORIA
 
