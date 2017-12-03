@@ -21,7 +21,7 @@ if [[ $? == "1" ]]
                 then
                         cd $dir
 
-                         source login.sh $1
+                         source menu.sh $1
 
 fi
 
