@@ -36,9 +36,10 @@ OPCAO=$(dialog --stdout				\
 
 if [[ $? == "1" ]]
                 then
-                        cd $dir
- 
-                        source login.sh $1
+			cd $dir
+			clear
+			exit 0
+                        #source login.sh $1
 fi
 
 
