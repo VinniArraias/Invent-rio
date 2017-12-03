@@ -33,7 +33,7 @@ grep "$2" $arquivo
 			#read -p "Pressione [enter] para continuar." ENTER
 
 			dialog						\
-				--title 'ID'				\
+				--title 'Erro'				\
 				--msgbox "ID ($ID) inválido."		\
 				0 0
 
@@ -44,11 +44,9 @@ grep "$2" $arquivo
 #passou
 
 
-#read -p "Entre com o novo nome do produto: " NOME
-
-NOME=$(dialog	--stdout				\
-	--title	'NOME'					\
-	--inputbox 'Entre com o novo nome do item: ' \
+NOME=$(dialog	--stdout					\
+	--title	'DESCRIÇÃO'					\
+	--inputbox 'Entre com a nova descrição do item: ' 	\
 	0 0)
 
 if [[ $? == "1" ]]
@@ -95,7 +93,7 @@ le=$(less $arquivo)
 
 dialog							\
 	--title 'Sucesso!'				\
-	--msgbox 'Novo nome alterado com sucesso.'	\
+	--msgbox 'Nova descrição alterada com sucesso.'	\
 	0 0
 
 
@@ -139,8 +137,8 @@ grep "$2" $arquivo
 #read -p "Entre com a nova descrição do produto: " DESCRICAO
 
 DESCRICAO=$(dialog	--stdout						\
-		--title 'Descrição'						\
-		--inputbox 'Entre com a nova descrição do item: '		\
+		--title 'APELIDO'						\
+		--inputbox 'Entre com o novo apelido do item: '			\
 		0 0)
 
 
@@ -223,8 +221,8 @@ grep "$2" $arquivo
 
 
 
-NL=$(dialog      --stdout                                                \
-                 --title 'Ambiente'                                             \
+NL=$(dialog      --stdout          	                                        \
+                 --title 'AMBIENTE'                                             \
                 --inputbox 'Entre com o novo nome do ambiente do item: '	\
                  0 0)
  
@@ -305,9 +303,9 @@ fi
 	if [[ $OPCAO == 1 ]]
 		then
 
-			ID=$(dialog	--stdout							\
-				--title 'ID'								\
-				--inputbox 'Entre com o ID do item para a alteração do nome do item: '	\
+			ID=$(dialog	--stdout								\
+				--title 'ID'									\
+				--inputbox 'Entre com o ID do item para a alteração da descrição do item: '	\
 				0 0)
 
 
@@ -372,7 +370,7 @@ fi
 
 			ID=$(dialog --stdout								\
 				--title 'ID'								\
-				--inputbox 'Entre com a ID do item para a alteração da descrição: '	\
+				--inputbox 'Entre com a ID do item para a alteração do apelido: '	\
 				0 0)
 
 
@@ -482,7 +480,7 @@ fi
 		#read -p "Opção inválida! Pressione [enter] para tentar novamente." ENTER
 
 		dialog 					\
-			--title 'Inválida'		\
+			--title 'Erro'		\
 			--msgbox 'Opção inválida!'	\
 			0 0
 
