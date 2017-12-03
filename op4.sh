@@ -46,13 +46,11 @@ clear
  
 cd $dir/registros/
 
-#echo $2
- #read -p "Entre com o usuário a ser removido [0 para retornar]: " USUARIO
 
-USUARIO=$(dialog --stdout                                                                       \
-                  --title 'Usuário'                                                              \
-                 --inputbox 'Entre com o nome de usuário a ser removido [0 para retornar: '     \
-                 0 0)
+loc=$(for x in $(cat users) ; do
+          echo $x ' -'
+        done)
+USUARIO=$(dialog --stdout --title "Deletação de usuário" --menu "Escolha um usário a ser removido" 0 0 0 $loc)
  
 if [[ $? == "1" ]]
                  then
@@ -72,7 +70,8 @@ if [[ $? == "1" ]]
                                  --msgbox 'Você não pode remover o admin.'       \
                                 0 0
  
-                        opcao $1
+                        #opcao $1
+			remover $1
         fi
  
  
@@ -89,6 +88,7 @@ if [[ $? == "1" ]]
                         opcao $1
 
         fi
+
 cd $dir/registros/
 
 US=$(cat user_atual.sh)
@@ -100,7 +100,8 @@ US=$(cat user_atual.sh)
 			--msgbox 'Você não pode se remover logado no programa; deslogue-se'	\
 			0 0
 
-			opcao $1
+			#opcao $1
+			remover $1
 fi
 
 grep "$USUARIO" users
@@ -121,7 +122,6 @@ grep -Riv "$USUARIO" users.csv > usersr.csv
 
 cat usersr.csv > users.csv
 
-#echo "Usuário ($USUARIO) removido com sucesso!"
  
  dialog                                                          \
         --title 'Sucesso!'                                      \
