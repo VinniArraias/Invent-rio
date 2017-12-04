@@ -64,8 +64,6 @@ if [[ $? == "1" ]]
  
         if [[ $USUARIO == "admin" ]]
                 then
-                         #echo "Você não pode remover o admin."
-                         #read -p "Pressione [enter] para continuar" ENTER
  
                          dialog                                                  \
                                  --title 'Permissão negada'                      \
@@ -79,8 +77,6 @@ if [[ $? == "1" ]]
  
          if [[ $USUARIO == "" ]]
                  then
-                        #echo "Usuário inválido!"
-                         #read -p "Pressione [enter] para continuar" ENTER
 
                        dialog                                                    \
                                  --title 'Erro'	                                 \

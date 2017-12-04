@@ -72,9 +72,6 @@ grep -Riv $CATEGORIA listagem > listag
 
 cat listag > listagem
 
-#echo "Localidade ($CATEGORIA) excluída com sucesso!"
-
-#read -p "Pressione [enter] para retornar ao menu." ENTER
 
 dialog									\
 	--title 'Sucesso!'						\

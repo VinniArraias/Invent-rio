@@ -1,10 +1,14 @@
 #!/bin/bash
+#Criar opção para desinstalar
 
 install_dialog(){
+
 apt-get update
 apt-get install dialog -y
+apt-get install sendemail -y
 
 }
+
 
 install_local(){
 
@@ -20,6 +24,7 @@ dir="/usr/share/Invent-rio"
 cd $dir
 
 touch sys_log
+touch logemail #log do email para o sendemail
 
 chmod 777 *
 

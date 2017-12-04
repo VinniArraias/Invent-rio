@@ -38,7 +38,8 @@ cd $dir/registros/$1/
  
 arquivo="$1.csv"
 N="$2;"
-grep "$N" $arquivo
+
+grep ^$N $arquivo
 
          if [[ $? == 1 ]]
                 then
@@ -46,7 +47,7 @@ grep "$N" $arquivo
 
 			dialog						\
 				--title 'ID'				\
-				-msgbox "ID ($ID) inválido"		\
+				--msgbox "ID ($2) inválido"		\
 				0 0
 
                         verificacao_opcao $1

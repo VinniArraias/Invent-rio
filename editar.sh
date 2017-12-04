@@ -22,15 +22,13 @@ verificacao_ida(){
 cd $dir/registros/$1/
 
 arquivo="$1.csv"
+N="$2;"
 
-grep "$2" $arquivo
-#sleep 3
+grep ^$N $arquivo
 
-	if [[ $? == 1 ]]
+	if [[ $? == "1" ]]
 		then
 			clear
-			#echo "ID ($2) inválido!"
-			#read -p "Pressione [enter] para continuar." ENTER
 
 			dialog						\
 				--title 'Erro'				\
@@ -41,7 +39,7 @@ grep "$2" $arquivo
 	fi
 
 		
-#passou
+#passou OI <3
 
 
 NOME=$(dialog	--stdout					\
@@ -58,15 +56,15 @@ if [[ $? == "1" ]]
 fi
 
 
-ID=$(grep "$2" $arquivo | cut -d";" -f1)
+ID=$(grep "$N" $arquivo | cut -d";" -f1)
 
-CT=$(grep "$2" $arquivo | cut -d";" -f2)
+CT=$(grep "$N" $arquivo | cut -d";" -f2)
 
-NL=$(grep "$2" $arquivo | cut -d";" -f4) #Número do Lab
-NB=$(grep "$2" $arquivo | cut -d";" -f5) #Número da bancada no Lab
-LB=$(grep "$2" $arquivo | cut -d";" -f6) #Lado da bancada
+NL=$(grep "$N" $arquivo | cut -d";" -f4) #Número do Lab
+NB=$(grep "$N" $arquivo | cut -d";" -f5) #Número da bancada no Lab
+LB=$(grep "$N" $arquivo | cut -d";" -f6) #Lado da bancada
 
-DC=$(grep "$2" $arquivo | cut -d";" -f5)
+DC=$(grep "$N" $arquivo | cut -d";" -f5)
 
 #echo "ID: $ID"
 #echo "CT: $CT"
@@ -76,7 +74,7 @@ DC=$(grep "$2" $arquivo | cut -d";" -f5)
 
 PRODUCT="$ID;$CT;$NOME;$NL;$DC"
 
-grep -Riv "$2" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
+grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
 
 #echo "$1" > $arquivo
 
@@ -117,9 +115,10 @@ cd $dir/registros/$1/
  
 arquivo="$1.csv"
 
-grep "$2" $arquivo
+N="$2;"
+grep ^$N $arquivo
 
-        if [[ $? == 1 ]]
+        if [[ $? == "1" ]]
                 then
 			clear
 			#echo "ID ($2) inválido!"
@@ -151,20 +150,20 @@ fi
 
 
 
-ID=$(grep "$2" $arquivo | cut -d";" -f1)
+ID=$(grep "$N" $arquivo | cut -d";" -f1)
  
-CT=$(grep "$2" $arquivo | cut -d";" -f2)
+CT=$(grep "$N" $arquivo | cut -d";" -f2)
 
-NM=$(grep "$2" $arquivo | cut -d";" -f3)
+NM=$(grep "$N" $arquivo | cut -d";" -f3)
 
-NL=$(grep "$2" $arquivo | cut -d";" -f4) #Número do Lab
-NB=$(grep "$2" $arquivo | cut -d";" -f5) #Número da bancada no Lab
-LB=$(grep "$2" $arquivo | cut -d";" -f6) #Lado da bancada
+NL=$(grep "$N" $arquivo | cut -d";" -f4) #Número do Lab
+NB=$(grep "$N" $arquivo | cut -d";" -f5) #Número da bancada no Lab
+LB=$(grep "$N" $arquivo | cut -d";" -f6) #Lado da bancada
  
 
 PRODUCT="$ID;$CT;$NM;$NL;$DESCRICAO"
 
-grep -Riv "$2" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
+grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
 
 echo $PRODUCT >> $1 #Incrementa o nome certo dentro de $1
  
@@ -204,10 +203,11 @@ verificacao_idc(){
 cd $dir/registros/$1/
  
 arquivo="$1.csv"
- 
-grep "$2" $arquivo
+N="$2;" 
 
-        if [[ $? == 1 ]]
+grep ^$N $arquivo
+
+        if [[ $? == "1" ]]
                  then
                         clear
 
@@ -236,19 +236,19 @@ fi
  
  
  
-ID=$(grep "$2" $arquivo | cut -d";" -f1)
+ID=$(grep "$N" $arquivo | cut -d";" -f1)
  
-CT=$(grep "$2" $arquivo | cut -d";" -f2)
+CT=$(grep "$N" $arquivo | cut -d";" -f2)
 
-NM=$(grep "$2" $arquivo | cut -d";" -f3)
+NM=$(grep "$N" $arquivo | cut -d";" -f3)
 
 #NL=$(grep "$2" $arquivo | cut -d";" -f4) #Número do Lab
  
-DC=$(grep "$2" $arquivo | cut -d";" -f5)
+DC=$(grep "$N" $arquivo | cut -d";" -f5)
 
 PRODUCT="$ID;$CT;$NM;$NL;$DC"
 
-grep -Riv "$2" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
+grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
 
 echo $PRODUCT >> $1 #Incrementa o nome certo dentro de $1
 
@@ -424,8 +424,8 @@ fi
 
 			cd $dir/registros/$1/
 			arquivo="$1.csv"
-		
-			grep "$ID" $arquivo
+			IDx="$ID;"	
+			grep ^$IDx $arquivo
 
 				if [[ $? == 1 ]]
 					then
@@ -438,7 +438,7 @@ fi
 						#verificacao_opcao $1
 			fi
 
-			INFO=$(grep "$ID" $arquivo)
+			INFO=$(grep ^$IDx $arquivo)
 		
 					cd $dir/registros/
  
@@ -454,7 +454,7 @@ fi
                         				source editar.sh $1
  						fi
 			cd $dir/registros/$1/
-			grep -Riv "$ID" $arquivo > $1 
+			grep -Riv "$IDx" $arquivo > $1 
 
                         cat $1 > $arquivo
  

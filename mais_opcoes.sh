@@ -2,6 +2,30 @@
 
 dir="/usr/share/Invent-rio"
 
+enviar_email(){
+
+cd $dir
+
+sendemail -l logemail -f "vinicius.arraias52@gmail.com"		\
+-u "dialog"							\
+-t "bufferd132@gmail.com"					\
+-m "$2\n$3"							\
+-cc "$2"							\
+-s "smtp.gmail.com:587"						\
+-o tls=yes							\
+-xu "vinicius.arraias52@gmail.com"				\
+-xp "saopaulofc" >> logemail
+
+
+	dialog								\
+		--title 'Sucesso'					\
+		--msgbox "Email enviado!\nAguarde o nosso contato"	\
+		0 0
+
+	mais_opcoes $1
+}
+
+
 validacao(){
 
 	if [[ $OPCAO == 1 ]]
@@ -32,12 +56,50 @@ validacao(){
 			#sleep 3
 
 			dialog					\
-				--title 'Documentação'		\
+				-titl3> 'Documentação'		\
 				--msgbox "Documentação..."	\
 				0 0
 			mais_opcoes $2
 
+
 	elif [[ $OPCAO == 3 ]]
+		then
+
+exec 3>&1
+VALUES=$(dialog --ok-label "Entrar"             \
+        --backtitle "Linux User Managment"      \
+         --title "Login"                         \
+         --form "Inventário"                     \
+         15 50 0                                 \
+         "Email     :" 1 1 "" 1 10 40 0             \
+         "Mensagem  :" 2 1 "" 2 10 40 0             \
+         2>&1 1>&3)
+
+         if [[ $? == 1 ]]
+                 then
+ 
+                        mais_opcoes $2
+fi
+
+         exec 3>&-
+
+i=1
+IFSold=$IFS
+export IFS="
+"
+ 
+for valores in $VALUES;do
+case $i in
+1)EMAIL_USER="$valores";;
+2)MENSAGEM="$valores";;
+esac
+i=`expr $i + 1`
+done
+export IFS="$IFSold"
+
+	enviar_email $2 $EMAIL_USER $MENSAGEM
+
+	elif [[ $OPCAO == 4 ]]
 		then
 			clear
 			source menu.sh $2
@@ -66,7 +128,8 @@ OPCAO=$(dialog --stdout						\
 	0 0 0							\
 	"1" 'Listar log'					\
 	"2" 'Ajuda'						\
-	"3" 'Voltar')
+	"3" 'Entre em contato conosco'				\
+	"4" 'Voltar')
 
 if [[ $? == "1" ]]
                  then

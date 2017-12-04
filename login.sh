@@ -75,11 +75,14 @@ i=1
 IFSold=$IFS
 export IFS="
 "
+LOGIN=""
+SENHA=""
 
 for valores in $VALUES;do
 case $i in
 1)LOGIN="$valores";;
 2)SENHA="$valores";;
+
 esac
 i=`expr $i + 1`
 done
