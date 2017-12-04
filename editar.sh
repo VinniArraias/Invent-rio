@@ -302,6 +302,8 @@ fi
 
 	if [[ $OPCAO == 1 ]]
 		then
+			OP=11
+			source log.sh $OP
 
 			ID=$(dialog	--stdout								\
 				--title 'ID'									\
@@ -335,6 +337,9 @@ fi
 			
 	elif [[ $OPCAO == 2 ]]
 			then
+				OP=12
+				source log.sh $OP
+
 				ID=$(dialog --stdout								\
 					--title 'ID'								\
 					--inputbox 'Entre com o ID para a alteração do nome do ambiente: '	\
@@ -366,7 +371,8 @@ fi
 
 	elif [[ $OPCAO == 3 ]]
 		then
-			#read -p "Entre com a ID patrimônio para a alteração da descrição: " ID
+			OP=13
+			source log.sh $OP
 
 			ID=$(dialog --stdout								\
 				--title 'ID'								\
@@ -400,6 +406,9 @@ fi
 
 	elif [[ $OPCAO == 4 ]]
 		then
+			OP=14
+			source log.sh $OP
+
 			cd $dir/registros/
 
 			ID=$(dialog --stdout									\

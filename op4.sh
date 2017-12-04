@@ -28,18 +28,20 @@ fi
 
 	if [[ $OPCAO == 1 ]]
 		then
-			OP=11
+			OP=16
 			source log.sh $OP
 			source excluir_cat.sh $1
 
 	elif [[ $OPCAO == 2 ]]
 		then
-			OP=12
+			OP=17
 			source log.sh $OP
 			source excluir_pat.sh $1
 
 	elif [[ $OPCAO == 3 ]]
 		then
+			OP=18
+			source log.sh $OP
 
 			remover(){
 clear

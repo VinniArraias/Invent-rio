@@ -27,10 +27,15 @@ fi
 
 	if [[ $OPCAO == 1 ]]
 		then
+			OP=21
+			source log.sh $OP
 			source login.sh
 
 	elif [[ $OPCAO == 2 ]]
 		then
+			OP=22
+			source log.sh $OP
+
 			clear
 			echo "Good-bye..."
 			exit 0

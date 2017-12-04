@@ -6,10 +6,11 @@ validacao(){
 
 	if [[ $OPCAO == 1 ]]
 		then
+			OP=24
+			source log.sh $OP
+
 			clear
 
-			#echo "Para sair do arquivo a seguir, pressione a tecla q"
-			#read -p "Agora, pressione [enter]" ENTER
 
 			le=$(less sys_log)
 
@@ -23,6 +24,8 @@ validacao(){
 
 	elif [[ $OPCAO == 2 ]]
 		then
+			OP=25
+			source log.sh $OP
 			clear
 
 			#echo "Abrir documentação"

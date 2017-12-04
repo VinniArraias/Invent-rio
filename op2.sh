@@ -25,18 +25,21 @@ fi
 
 	if [[ $OPCAO == 1 ]]
 		then
-			OP=9
+			OP=7
 			source log.sh $OP
 			source novo.sh $1
 
 	elif [[ $OPCAO == 2 ]]
 		then
-			OP=10
+			OP=8
 			source log.sh $OP
 			source adicionar_eq.sh $1
 
 	elif [[ $OPCAO == 3 ]]
 		then
+			OP=9
+			source log.sh $OP
+
 			new_user(){
 exec 3>&1
  

@@ -42,15 +42,23 @@ if [[ $? == "1" ]]
                         #source login.sh $1
 fi
 
+OP1=1
+OP2=6
+OP3=10
+OP4=15
+OP5=19
+OP6=20
+OP7=23
+
 
 case $OPCAO in
-	1) source log.sh $OPCAO ; source op1.sh $1 ;; #Cadastrar
-	2) source log.sh $OPCAO ; source op2.sh $1 ;; #Fazer cadastrar patrimonio
-	3) source log.sh $OPCAO ; source editar.sh $1 ;; #Editar
-	4) source log.sh $OPCAO ; source op4.sh $1 ;;
-	5) source log.sh $OPCAO ; source alterar_loc.sh $1 ;;
-	6) source log.sh $OPCAO ; source deslogar.sh $1 ;;
-	7) source log.sh $OPCAO ; source mais_opcoes.sh $1 ;;
+	1) source log.sh $OP1 ; source op1.sh $1 ;; #Cadastrar
+	2) source log.sh $OP2 ; source op2.sh $1 ;; #Fazer cadastrar patrimonio
+	3) source log.sh $OP3 ; source editar.sh $1 ;; #Editar
+	4) source log.sh $OP4 ; source op4.sh $1 ;;
+	5) source log.sh $OP5 ; source alterar_loc.sh $1 ;;
+	6) source log.sh $OP6 ; source deslogar.sh $1 ;;
+	7) source log.sh $OP7 ; source mais_opcoes.sh $1 ;;
 	*) invalido ; menu ;;
 esac
 

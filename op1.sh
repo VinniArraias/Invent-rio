@@ -9,7 +9,7 @@ OPCAO=$(dialog --stdout				\
 	--title 'LISTAR'			\
 	--menu 'Escolha uma opção'		\
 	0 0 0					\
-	"1" 'Listar localidade'			\
+	"1" 'Listar localidades'		\
 	"2" 'Listar itens'			\
 	"3" 'Listar baixas'			\
 	"4" 'Listar usuários cadastrados'	\
@@ -27,19 +27,22 @@ OPCAO=$(dialog --stdout				\
 
 	if [[ $OPCAO == 1 ]]
 		then
-			OP=7
+			OP=2
 			source log.sh $OP
 			source listar_loc.sh $1
 
 
 	elif [[ $OPCAO == 2 ]]
 		then
-			OP=8
+			OP=3
 			source log.sh $OP
 			source listar.sh $1
 
 	elif [[ $OPCAO == 3 ]]
 		then
+			OP=4
+			source log.sh $OP
+
 			cd $dir/registros/$1/
 			arquivo="baixas.csv"
 
@@ -55,6 +58,9 @@ OPCAO=$(dialog --stdout				\
 
 	elif [[ $OPCAO == 4 ]]
 		then
+			OP=5
+			source log.sh $OP
+
 			listar(){
 
 				#cd /home/vinicius/Projeto/Invent-rio/registros/

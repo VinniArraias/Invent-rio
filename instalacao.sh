@@ -19,6 +19,8 @@ install_arquivo(){
 dir="/usr/share/Invent-rio"
 cd $dir
 
+touch sys_log
+
 chmod 777 *
 
 mkdir registros
