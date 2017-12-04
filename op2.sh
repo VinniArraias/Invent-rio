@@ -144,11 +144,11 @@ INFO="$NOME;$HASH_PASS"
  
 echo $INFO >> users.csv
 
-USERx=$(grep $NOME users.csv)
-USER=$(echo $USERx | cut -d";" -f1)
+#USERx=$(grep $NOME users.csv)
+#USER=$(echo $USERx | cut -d";" -f1)
  
-echo $USER >> users
- 
+#echo $USER >> users
+echo $NOME >> users
  
  dialog                                                          \
         --title 'Sucesso!'                                      \
