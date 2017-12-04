@@ -160,6 +160,12 @@ elif [[ $1 == 25 ]]
                  echo "$INFO" >> sys_log
 
 
+elif [[ $1 == 26 ]]
+         then
+                 INFO="$USER | $date | Função: Entrada de contato"
+                 echo "$INFO" >> sys_log
+
+
 else
 	echo 
 fi
