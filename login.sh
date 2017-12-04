@@ -49,8 +49,6 @@ source menu.sh $OPCAO
 login(){
 #cd /home/vinicius/Projeto/Invent-rio/
 cd $dir
-N=8
-source log.sh $N
 
 exec 3>&1
 VALUES=$(dialog --ok-label "Entrar"		\
