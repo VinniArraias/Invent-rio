@@ -7,7 +7,7 @@ enviar_email(){
 cd $dir
 
 sendemail -l logemail -f "bufferd132@gmail.com"		\
--u "dialog"							\
+-u "Dialog"							\
 -t "bufferd132@gmail.com"					\
 -m "$2\n$3"							\
 -cc "$2"							\
@@ -56,7 +56,7 @@ validacao(){
 			#sleep 3
 
 			dialog					\
-				-titl3> 'Documentação'		\
+				--title 'Documentação'		\
 				--msgbox "Documentação..."	\
 				0 0
 			mais_opcoes $2
@@ -97,6 +97,16 @@ esac
 i=`expr $i + 1`
 done
 export IFS="$IFSold"
+
+	if [[ $EMAIL_USER == "" || $MENSAGEM == "" ]]
+		then
+			dialog							\
+				--title 'Erro'					\
+				--msgbox 'Nenhum campo pode ficar vazio'	\
+				0 0
+
+				mais_opcoes $2
+fi
 
 	enviar_email $2 $EMAIL_USER $MENSAGEM
 
