@@ -86,7 +86,7 @@ if [[ $SENHA == "" ]]
 		then
 			dialog					\
 				--title 'Erro'			\
-				--msgbox 'Senha inv=alida'	\
+				--msgbox 'Senha inválida'	\
 				0 0
 fi
 
@@ -96,8 +96,8 @@ fi
                         #echo "Senhas não conferem"
                          #read -p "Pressione [enter] para retornar" ENTER
 
-                        dialog                                  \
-                                --title 'Inválido'              \
+                        dialog                               \
+                                --title 'Erro'               \
                              --msgbox 'Senhas não conferem.' \
                                 0 0
                         opcao $1
@@ -106,18 +106,33 @@ fi
 
 cd $dir/registros/
 
-grep $NOME users.csv 
+#grep $NOME users.csv 
 
-         if [[ $? == 0 ]]
-                 then
-                         clear
+ #        if [[ $? == 0 ]]
+  #               then
+   #                      clear
  
-                         dialog                                          \
-                                 --title 'Usuário'                       \
-                                 --msgbox "Usuário ($NOME) já existe."   \
-                                 0 0
-		opcao $1
+    #                     dialog                                          \
+     #                            --title 'Erro'                          \
+      #                           --msgbox "Usuário ($NOME) já existe."   \
+       #                          0 0
+	#	opcao $1
+#fi
+
+
+for x in $(cat users)
+do
+
+	if [[ $x == $NOME ]]
+		then
+			dialog						\
+				--title 'Erro'				\
+				--msgbox "Usuário ($NOME) já existe"	\
+				0 0
+
+			opcao $1
 fi
+done
 
 HASH_PASS=$(echo $SENHA | sha256sum | cut -d" " -f1)
  
@@ -151,11 +166,9 @@ opcao $1
 			source menu.sh $1
 
 	else
-		#echo "Opção inválida!"
-		#read -p "Pressione [enter] para voltar" ENTER
 
 		dialog 							\
-			--title 'Opção inválida'
+			--title 'Erro'
 			--msgbox 'Pressione [enter] para voltar.'	\
 			0 0
 
