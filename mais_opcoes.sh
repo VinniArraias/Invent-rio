@@ -64,7 +64,8 @@ validacao(){
 
 	elif [[ $OPCAO == 3 ]]
 		then
-
+			OP=26
+			source log.sh $OP
 exec 3>&1
 VALUES=$(dialog --ok-label "Entrar"             \
         --backtitle "Linux User Managment"      \
