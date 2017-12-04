@@ -4,8 +4,10 @@ dir="/usr/share/Invent-rio"
 
 
 log(){
-cd $dir
+cd $dir/registros/
+USER=$(cat user_atual.sh)
 
+cd $dir
 date=$(date)
 
 
