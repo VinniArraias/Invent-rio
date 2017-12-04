@@ -6,15 +6,15 @@ enviar_email(){
 
 cd $dir
 
-sendemail -l logemail -f "vinicius.arraias52@gmail.com"		\
+sendemail -l logemail -f "bufferd132@gmail.com"		\
 -u "dialog"							\
 -t "bufferd132@gmail.com"					\
 -m "$2\n$3"							\
 -cc "$2"							\
 -s "smtp.gmail.com:587"						\
 -o tls=yes							\
--xu "vinicius.arraias52@gmail.com"				\
--xp "saopaulofc" >> logemail
+-xu "bufferd132@gmail.com"				\
+-xp "monadav132" >> logemail
 
 
 	dialog								\
