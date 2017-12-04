@@ -60,6 +60,15 @@ VALUES=$(dialog --ok-label "Entrar"		\
 	"Senha  :" 2 1 "" 2 10 40 0 		\
 	2>&1 1>&3)
 
+	if [[ $? == 1 ]]
+		then
+			dialog					\
+			--title 'Erro'				\
+			--msgbox 'Usuário ou senha inválidos.'	\
+			0 0
+
+			login
+fi
 	exec 3>&-
 
 i=1

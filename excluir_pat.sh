@@ -37,8 +37,8 @@ verificacao_id(){
 cd $dir/registros/$1/
  
 arquivo="$1.csv"
-
-grep "$2" $arquivo
+N="$2;"
+grep "$N" $arquivo
 
          if [[ $? == 1 ]]
                 then
@@ -52,10 +52,10 @@ grep "$2" $arquivo
                         verificacao_opcao $1
         fi
  
-NOME=$(grep "$2" $arquivo | cut -d";" -f3)
+NOME=$(grep "$N" $arquivo | cut -d";" -f3)
  
-grep -Riv "$2" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
-grep "$2" $arquivo >> baixas.csv
+grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
+grep "$N" $arquivo >> baixas.csv
 
 cat $1 > $arquivo
 
