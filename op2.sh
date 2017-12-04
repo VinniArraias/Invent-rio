@@ -120,10 +120,13 @@ cd $dir/registros/
 #fi
 
 
-for x in $(cat users)
+for x in $(cat users.csv)
 do
 
-	if [[ $x == $NOME ]]
+USUARIO=$(echo $x | cut -d";" -f1)
+
+
+	if [[ $USUARIO == $NOME ]]
 		then
 			dialog						\
 				--title 'Erro'				\
