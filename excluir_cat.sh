@@ -62,6 +62,21 @@ CATEGORIAA=$1
 
 	fi
 
+
+	dialog								\
+		--title 'Confirmação'					\
+		--yesno 'Deseja realmente deletar esta localidade?'	\
+		0 0
+
+	
+		if [[ $? == 1 ]]
+			then
+				del $1
+
+	fi
+
+
+
 cd $dir/registros/
 
 #verificacao $CATEGORIA

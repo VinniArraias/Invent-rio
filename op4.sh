@@ -87,6 +87,23 @@ if [[ $? == "1" ]]
 
         fi
 
+
+ dialog                                                          \
+                 --title 'Confirmação'                                   \
+                --yesno 'Deseja realmente deletar este usuário?'     \
+                0 0
+ 
+
+                if [[ $? == 1 ]]
+                        then
+                                remover $1
+
+         fi
+
+
+
+
+
 cd $dir/registros/
 
 US=$(cat user_atual.sh)

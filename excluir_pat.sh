@@ -50,8 +50,22 @@ grep ^$N $arquivo
 				--msgbox "ID ($2) inválido"		\
 				0 0
 
-                        verificacao_opcao $1
+                        del $1
         fi
+
+		dialog                                                          \
+                 --title 'Confirmação'                                   \
+                 --yesno 'Deseja realmente deletar este item?'     \
+                 0 0
+
+
+                 if [[ $? == 1 ]]
+                        then
+                                 del $1
+
+         fi
+
+
  
 NOME=$(grep "$N" $arquivo | cut -d";" -f3)
  
@@ -68,8 +82,6 @@ dialog						\
 	--msgbox "$NOME deletado com sucesso!"	\
 	0 0
 
-#echo "Para sair do arquivo a seguir, pressione a tecla q"
-#read -p "Agora, pressione [enter]" ENTER
 
 
 le=$(cat $arquivo)
@@ -88,13 +100,6 @@ source op4.sh $1
 
 del (){
 
-#read -p "Entre com o nome da localidade do patrimônio a ser removido [0 para retornar ao menu]: " CATEGORIA
-
-#CATEGORIA=$(dialog	--stdout												\
-#	--title 'Localidade'											\
-#	--inputbox 'Entre com o nome da localidade do patrimônio a ser removido [0 para retornar ao menu]: '	\
-#	0 0)
-
 CATEGORIA=$1
 
 
@@ -109,7 +114,6 @@ fi
 return_menu $CATEGORIA
 verificacao_cat $CATEGORIA
 
-#read -p "Entre com o número do patrimônio a ser removida da localidade $CATEGORIA [0 para retornar]: " PATRIMONIO
 
 PATRIMONIO=$(dialog	--stdout										\
 		--title 'ID'											\
