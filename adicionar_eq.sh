@@ -175,7 +175,7 @@ if [[ $NUMB == 1 ]]
                 then
                 dialog                                                                          \
                         --title 'Sucesso'                                                      	\
-                        --msgbox "Cadastado com sucesso!\n Seu número de patrimônio é $ID"      \
+                        --msgbox "Cadastrado com sucesso!\n Seu número de patrimônio é $ID"      \
                         0 0
 
 	else
