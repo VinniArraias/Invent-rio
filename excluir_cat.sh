@@ -79,7 +79,6 @@ CATEGORIAA=$1
 
 cd $dir/registros/
 
-#verificacao $CATEGORIA
 
 rm -rf $CATEGORIA
 
@@ -97,6 +96,8 @@ clear
 
 #dir="/home/vinicius/Projeto/Invent-rio/"
 cd $dir
+
+del $1
 }
 
 del $1
