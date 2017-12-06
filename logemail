@@ -4,3 +4,29 @@ Dec 04 14:53:40 z450-la sendemail[17129]: Email was sent successfully!  From: <v
 Dec 04 14:53:40 z450-la sendemail[17129]: Email was sent successfully!  From: <vinicius.arraias52@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
 Dec 04 15:37:46 z450-la sendemail[18411]: Email was sent successfully!  From: <vinicius.arraias52@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
 Dec 04 15:37:46 z450-la sendemail[18411]: Email was sent successfully!  From: <vinicius.arraias52@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 19:43:02 z450-la sendemail[9528]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:43:02 z450-la sendemail[9528]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:44:24 z450-la sendemail[9578]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:44:24 z450-la sendemail[9578]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:45:25 z450-la sendemail[9614]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:45:25 z450-la sendemail[9614]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:58:29 z450-la sendemail[9931]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 19:58:29 z450-la sendemail[9931]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 20:02:35 z450-la sendemail[10043]: Email was sent successfully!  From: <vinicius.arraias52@gmail.com> To: <vinicius.arraias52@gmail.com> Cc: <michellearraias@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 20:02:35 z450-la sendemail[10043]: Email was sent successfully!  From: <vinicius.arraias52@gmail.com> To: <vinicius.arraias52@gmail.com> Cc: <michellearraias@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 20:34:21 z450-la sendemail[10392]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 20:34:21 z450-la sendemail[10392]: ERROR => ERROR => SMTP-AUTH: Authentication to smtp.gmail.com:587 failed.
+Dec 04 20:37:32 z450-la sendemail[10531]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 20:37:32 z450-la sendemail[10531]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 20:38:33 z450-la sendemail[10578]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <michellearraias@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 20:38:33 z450-la sendemail[10578]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <michellearraias@gmail.com> Subject: [dialog] Server: [smtp.gmail.com:587]
+Dec 04 20:58:31 z450-la sendemail[11052]: EXITING: Received SIGINT
+Dec 04 20:58:31 z450-la sendemail[11052]: EXITING: Received SIGINT
+Dec 05 13:07:03 z450-la sendemail[14601]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 13:07:03 z450-la sendemail[14601]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 13:09:01 z450-la sendemail[14670]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 13:09:01 z450-la sendemail[14670]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 13:20:34 z450-la sendemail[14988]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 13:20:34 z450-la sendemail[14988]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <brendat.rocha@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 15:58:55 z450-la sendemail[21060]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <theus209@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]
+Dec 05 15:58:55 z450-la sendemail[21060]: Email was sent successfully!  From: <bufferd132@gmail.com> To: <bufferd132@gmail.com> Cc: <theus209@gmail.com> Subject: [Dialog] Server: [smtp.gmail.com:587]

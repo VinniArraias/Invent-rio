@@ -39,7 +39,7 @@ fi
 add_equip1(){
 
 #dir="/home/vinicius/Projeto/Invent-rio/registros/"
-cd $di/registros/
+cd $dir/registros/
 
 
 LOCALIDADE=$1

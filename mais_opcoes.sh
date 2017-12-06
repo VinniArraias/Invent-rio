@@ -6,6 +6,10 @@ enviar_email(){
 
 cd $dir
 
+ARQ=(cat mensagem)
+echo $3 > mensagem
+
+
 sendemail -l logemail -f "bufferd132@gmail.com"		\
 -u "Dialog"							\
 -t "bufferd132@gmail.com"					\
@@ -72,8 +76,8 @@ VALUES=$(dialog --ok-label "Entrar"             \
          --title "Login"                         \
          --form "Inventário"                     \
          15 50 0                                 \
-         "Email     :" 1 1 "" 1 10 40 0             \
-         "Mensagem  :" 2 1 "" 2 10 40 0             \
+         "Email     :" 1 1 "" 1 10 64 0             \
+         "Mensagem  :" 2 1 "" 2 10 1000 0             \
          2>&1 1>&3)
 
          if [[ $? == 1 ]]
@@ -91,8 +95,9 @@ export IFS="
  
 for valores in $VALUES;do
 case $i in
-1)EMAIL_USER="$valores";;
-2)MENSAGEM="$valores";;
+1)EMAIL_USER="$valores" ;;
+2)MENSAGEM="$valores" ;;
+
 esac
 i=`expr $i + 1`
 done
@@ -108,7 +113,29 @@ export IFS="$IFSold"
 				mais_opcoes $2
 fi
 
-	enviar_email $2 $EMAIL_USER $MENSAGEM
+		cd $dir
+ 
+sendemail -l logemail -f "bufferd132@gmail.com"         \
+-u "Dialog"                                                     \
+-t "bufferd132@gmail.com"                                       \
+-m "$EMAIL_USER\n$MENSAGEM"                                                     \
+-cc "$EMAIL_USER"                                                        \
+-s "smtp.gmail.com:587"                                         \
+-o tls=yes                                                      \
+-xu "bufferd132@gmail.com"                              \
+-xp "monadav132" >> logemail
+ 
+ 
+
+         dialog                                                          \
+                 --title 'Sucesso'                                       \
+                 --msgbox "Email enviado!\nAguarde o nosso contato"      \
+                 0 0
+ 
+          mais_opcoes $1
+
+
+
 
 	elif [[ $OPCAO == 4 ]]
 		then
