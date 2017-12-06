@@ -2,6 +2,7 @@
 clear
 dir="/usr/share/Invent-rio"
 
+
 incorrect(){
 
 dialog								   \
@@ -9,9 +10,6 @@ dialog								   \
 	--msgbox 'Usuário ou senha incorretos! \n Tente novamente!' \
 	0 0
 
-#echo
-#echo "Usuário ou senha incorretos! Tente novamente."
-#echo
 
 login
 }
@@ -35,15 +33,28 @@ if [[ $? == "1" ]]
                         login
 fi
 
-#cd /home/vinicius/Projeto/Invent-rio/
-cd $dir
+cd $dir/registros/
 
-source menu.sh $OPCAO
 
+TIPO_USER=$(grep $1 users.csv | cut -d";" -f3)
+
+
+	if [[ $TIPO_USER == "A" ]]
+		then
+			#Ele é admin		
+			cd $dir
+			source menu.sh $OPCAO
+
+	elif [[ $TIPO_USER == "B" ]]
+		then
+			#Ele é usuário comum
+			cd $dir
+			source menu_user.sh $OPCAO
+else
+		echo "Erro de parâmetros"	
+fi
 
 }
-
-
 
 
 login(){
@@ -125,7 +136,7 @@ for x in $(cat users)
 							cd $dir
 							
 
-							correct
+							correct $LOGIN
 	
 						else
 
