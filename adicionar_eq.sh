@@ -137,7 +137,11 @@ for i in $(seq $NUMB)
 	arquivo="$dir/registros/$LOCALIDADE/$LOCALIDADE.csv"
 	arquivog="$dir/registros/"
 
-INFOx=";$CATEGORIA;$NOME_PRODUTO;$NUMERO_LAB;$DESCRICAO"
+day=`date -d -1day |awk '{print$3}'`
+date=`date +%m/%y`
+IMOBILIZACAO="$day/$date"
+
+INFOx=";$CATEGORIA;$NOME_PRODUTO;$NUMERO_LAB;$DESCRICAO;$IMOBILIZACAO"
 cd $arquivog
 
 echo $INFOx >> gerados.sh
@@ -149,7 +153,7 @@ IDx=$(echo $NUMBER | cut -d" " -f1)
 
 ID="00000$IDx"
 
-INFO="$ID;$CATEGORIA;$NOME_PRODUTO;$NUMERO_LAB;$DESCRICAO"
+INFO="$ID;$CATEGORIA;$NOME_PRODUTO;$NUMERO_LAB;$DESCRICAO;$IMOBILIZACAO"
 #NUMERO_LAB NUMERO_BANK LADO_BANK
 
 echo $INFO >> $arquivo 
@@ -157,7 +161,6 @@ echo $INFO >> $arquivo
 
 if [[ $? == 1 ]]
 	then
-		#echo "Algum erro aconteceu durante o cadastro; tente novamente."
 
 		dialog 										\
 			--msgbox 'Algum erro ocorrou durante o cadastro; tente novamente.'	\

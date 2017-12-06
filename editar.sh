@@ -61,31 +61,20 @@ ID=$(grep "$N" $arquivo | cut -d";" -f1)
 CT=$(grep "$N" $arquivo | cut -d";" -f2)
 
 NL=$(grep "$N" $arquivo | cut -d";" -f4) #Número do Lab
-NB=$(grep "$N" $arquivo | cut -d";" -f5) #Número da bancada no Lab
-LB=$(grep "$N" $arquivo | cut -d";" -f6) #Lado da bancada
+IM=$(grep "$N" $arquivo | cut -d";" -f6) #Data
 
 DC=$(grep "$N" $arquivo | cut -d";" -f5)
 
-#echo "ID: $ID"
-#echo "CT: $CT"
-#echo "DC: $DC"
-
-#sleep 3
-
-PRODUCT="$ID;$CT;$NOME;$NL;$DC"
+PRODUCT="$ID;$CT;$NOME;$NL;$DC;$IM"
 
 grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
 
-#echo "$1" > $arquivo
 
 echo $PRODUCT >> $1 #Incrementa o nome certo dentro de $1
 
 cat $1 > $arquivo
 
 le=$(cat $arquivo)
-#echo "Para sair do arquivo a seguir, pressione a tecla q"
-#read -p "Agora, pressione [enter]" ENTER
-
 
 le=$(less $arquivo)
 
@@ -157,11 +146,9 @@ CT=$(grep "$N" $arquivo | cut -d";" -f2)
 NM=$(grep "$N" $arquivo | cut -d";" -f3)
 
 NL=$(grep "$N" $arquivo | cut -d";" -f4) #Número do Lab
-NB=$(grep "$N" $arquivo | cut -d";" -f5) #Número da bancada no Lab
-LB=$(grep "$N" $arquivo | cut -d";" -f6) #Lado da bancada
- 
+IM=$(grep "$N" $arquivo | cut -d";" -f6) 
 
-PRODUCT="$ID;$CT;$NM;$NL;$DESCRICAO"
+PRODUCT="$ID;$CT;$NM;$NL;$DESCRICAO;$IM"
 
 grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
 
@@ -246,7 +233,9 @@ NM=$(grep "$N" $arquivo | cut -d";" -f3)
  
 DC=$(grep "$N" $arquivo | cut -d";" -f5)
 
-PRODUCT="$ID;$CT;$NM;$NL;$DC"
+IM=$(grep "$N" $arquivo | cut -d";" -f6)
+
+PRODUCT="$ID;$CT;$NM;$NL;$DC;$IM"
 
 grep -Riv "$N" $arquivo > $1 #Joga a saída sem o ID a ser editado para $1
 
