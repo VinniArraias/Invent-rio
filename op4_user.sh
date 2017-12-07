@@ -21,7 +21,7 @@ if [[ $? == "1" ]]
                 then
                         cd $dir
 
-                        source menu_user.sh $1
+                        source menu.sh $1
 fi
 
 
@@ -30,13 +30,13 @@ fi
 		then
 			OP=16
 			source log.sh $OP
-			source excluir_cat_user.sh $1
+			source excluir_cat.sh $1
 
 	elif [[ $OPCAO == 2 ]]
 		then
 			OP=17
 			source log.sh $OP
-			source excluir_pat_user.sh $1
+			source excluir_pat.sh $1
 
 	elif [[ $OPCAO == 3 ]]
 		then
@@ -157,7 +157,7 @@ opcao $1
 
 	elif [[ $OPCAO == 4 ]]
 		then
-			source menu_user.sh $1
+			source menu.sh $1
 
 	else
 		dialog							\

@@ -91,6 +91,7 @@ chmod 777 catg.csv
 touch $CATEGORIA
 touch cat.csv
 touch baixas.csv
+touch $CATEGORIA.csv
 
 chmod 777 *
 

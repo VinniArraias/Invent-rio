@@ -132,7 +132,7 @@ sendemail -l logemail -f "bufferd132@gmail.com"         \
                  --msgbox "Email enviado!\nAguarde o nosso contato"      \
                  0 0
  
-          mais_opcoes $2 #Alterei aqui para $2
+          mais_opcoes $2 #Alterei para $2
 
 
 
@@ -140,7 +140,7 @@ sendemail -l logemail -f "bufferd132@gmail.com"         \
 	elif [[ $OPCAO == 4 ]]
 		then
 			clear
-			source menu.sh $2
+			source menu_user.sh $2
 
 	else
 		#read -p "Opção inválida! Pressione [enter] para voltar." ENTER
@@ -173,7 +173,7 @@ if [[ $? == "1" ]]
                  then
                         cd $dir
  
-                        source menu.sh $1
+                        source menu_user.sh $1
 fi
 
 validacao $OPCAO $1

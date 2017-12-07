@@ -106,19 +106,6 @@ fi
 
 cd $dir/registros/
 
-#grep $NOME users.csv 
-
- #        if [[ $? == 0 ]]
-  #               then
-   #                      clear
- 
-    #                     dialog                                          \
-     #                            --title 'Erro'                          \
-      #                           --msgbox "Usuário ($NOME) já existe."   \
-       #                          0 0
-	#	opcao $1
-#fi
-
 
 for x in $(cat users.csv)
 do
@@ -139,15 +126,25 @@ done
 
 HASH_PASS=$(echo $SENHA | sha256sum | cut -d" " -f1)
  
+##########################################################################################3
 
-INFO="$NOME;$HASH_PASS"
+TIPO_USER=$(dialog	--stdout					\
+		--title 'Tipo de usuário'				\
+		--radiolist "Qual será o tipo de usuário de $NOME?"	\
+		0 0 0							\
+		A 'Usuário Administrador'	on			\
+		B 'Usuário Comum'		off			)
+
+	if [[ $? == "1" ]]
+		then
+			opcao $1
+
+fi
+
+INFO="$NOME;$HASH_PASS;$TIPO_USER"
  
 echo $INFO >> users.csv
 
-#USERx=$(grep $NOME users.csv)
-#USER=$(echo $USERx | cut -d";" -f1)
- 
-#echo $USER >> users
 echo $NOME >> users
  
  dialog                                                          \

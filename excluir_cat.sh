@@ -54,8 +54,8 @@ CATEGORIAA=$1
 	if [[ $CATEGORIA == $CATEGORIAA ]]
 		then
 			dialog														  \
-			--title 'Localideade'												  \
-			--msgbox 'Você não pode deletar esta categoria porque está logada nela; deslogue-se desta categoria pare deletar '\
+		--title 'Erro'														  \
+		--msgbox 'Você não pode deletar esta categoria porque está logada nela; deslogue-se desta categoria para deletá-la '	  \
 			0 0
 
 			del $1
