@@ -15,7 +15,23 @@ VALUES=$(dialog --ok-label "Cadastrar"                                          
         "Senha                   :" 2 1 "" 2 26 19 0                            \
         "Digite a senha novamente:" 3 1 "" 3 26 19 0                            \
          2>&1 1>&3)
- 
+
+#################################################################################
+	if [[ $? == 1 ]]
+                 then
+                        dialog                                                  \
+                        --title 'Sair'                                          \
+                        --yesno 'Tem certeza que deseja sair do programa?'      \
+                        0 0
+
+                        if [[ $? == 0 ]]
+                                 then
+                                        clear
+                                         echo "Good-bye..."
+                                        exit 0
+                 fi
+fi
+#################################################################################
 exec 3>&-
  
 i=1
@@ -31,6 +47,7 @@ esac
 i=`expr $i + 1`
 done
 export IFS="$IFSold"
+
 
 	if [[ $NOME == "" ]]
        	       then
