@@ -119,7 +119,7 @@ US=$(cat user_atual.sh)
 			remover $1
 fi
 
-grep "$USUARIO" users
+grep ^$USUARIO users
 
          if [[ $? == 1 ]]
                  then
@@ -133,7 +133,7 @@ grep "$USUARIO" users
  
          fi
 
-grep -Riv "$USUARIO" users.csv > usersr.csv
+grep -Riv ^$USUARIO users.csv > usersr.csv
 
 cat usersr.csv > users.csv
 
@@ -144,7 +144,7 @@ cat usersr.csv > users.csv
          0 0
  
  
-grep -Riv "$USUARIO" users > usersr2.csv
+grep -Riv ^$USUARIO users > usersr2.csv
  
 cat usersr2.csv > users
  
