@@ -90,9 +90,8 @@ dialog								\
 
 dialog													\
 	--title 'INVENTÁRIO'										\
-	--msgbox 'Para inicializar o programa, digite "Inventario" e pressione enter no seu terminal.'
+	--msgbox 'Para inicializar o programa, digite "Inventario" e pressione enter no seu terminal.'	\
 	0 0
-clear
 
 
 }
