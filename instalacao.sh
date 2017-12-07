@@ -68,9 +68,9 @@ echo "admin" > users
 
 echo "admin" > usersr2.csv
 
-echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7;2" > users.csv
+echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7;A" > users.csv
 
-echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7;2" > usersr.csv
+echo "admin;fc8252c8dc55839967c58b9ad755a59b61b67c13227ddae4bd3f78a38bf394f7;A" > usersr.csv
 
 
 mkdir Padrão
