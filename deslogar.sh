@@ -49,9 +49,7 @@ fi
 			OP=22
 			source log.sh $OP
 
-
-			if [[ $? == 1 ]]
-                 		then
+		
                         		dialog                                                  \
                          		--title 'Sair'                                          \
                          		--yesno 'Tem certeza que deseja sair do programa?'      \
@@ -64,7 +62,7 @@ fi
                                          	 exit 0
                  	fi
 
-	fi
+	fi 
 
 		deslogar $1
 
