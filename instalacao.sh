@@ -49,6 +49,16 @@ done
 export IFS="$IFSold"
 
 
+if echo "$NOME" | egrep ' ' >/dev/null
+                 then
+                        dialog                                                                  \
+                                --title 'Erro'                                                  \
+                                --msgbox 'Nome do usuário não pode conter espaço!'      \
+                                0 0
+ 
+                                usuario
+fi
+
 	if [[ $NOME == "" ]]
        	       then
 
@@ -111,7 +121,7 @@ dialog													\
 	0 0
 
 clear
-
+exit 0
 }
 
 

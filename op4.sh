@@ -131,7 +131,9 @@ grep -x $USUARIO users
  
          fi
 
-grep -xv $USUARIO users.csv > usersr.csv
+USUARIOx="^$USUARIO;"
+
+grep -Riv $USUARIOx users.csv > usersr.csv
 
 cat usersr.csv > users.csv
 
@@ -141,7 +143,7 @@ cat usersr.csv > users.csv
          --msgbox "Usuário ($USUARIO) removido com sucesso"      \
          0 0
  
- 
+
 grep -xv $USUARIO users > usersr2.csv
  
 cat usersr2.csv > users
@@ -155,11 +157,12 @@ opcao $1
 
 	elif [[ $OPCAO == 4 ]]
 		then
+			cd $dir
 			source menu.sh $1
 
 	else
 		dialog							\
-		--title 'Erro'					\
+		--title 'Erro'						\
 		--msgbox 'Opção inválida!'				\
 		0 0
 fi
