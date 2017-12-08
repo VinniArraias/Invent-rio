@@ -88,6 +88,8 @@ if [[ $SENHA == "" ]]
 				--title 'Erro'			\
 				--msgbox 'Senha inválida'	\
 				0 0
+
+			opcao $1
 fi
 
  
@@ -145,7 +147,7 @@ INFO="$NOME;$HASH_PASS;$TIPO_USER"
  
 echo $INFO >> users.csv
 
-echo $NOME >> users
+echo "$NOME" >> users
  
  dialog                                                          \
         --title 'Sucesso!'                                      \

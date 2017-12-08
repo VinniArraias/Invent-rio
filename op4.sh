@@ -62,17 +62,17 @@ if [[ $? == "1" ]]
  fi
  
  
-        if [[ $USUARIO == "admin" ]]
-                then
+        #if [[ $USUARIO == "admin" ]]
+         #       then
  
-                         dialog                                                  \
-                                 --title 'Permissão negada'                      \
-                                 --msgbox 'Você não pode remover o admin.'       \
-                                0 0
+          #               dialog                                                  \
+           #                      --title 'Permissão negada'                      \
+            #                     --msgbox 'Você não pode remover o admin.'       \
+             #                   0 0
  
                         #opcao $1
-			remover $1
-        fi
+	#		remover $1
+        #fi
  
  
          if [[ $USUARIO == "" ]]
