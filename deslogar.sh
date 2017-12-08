@@ -62,7 +62,6 @@ fi
                                          	 exit 0
                  	fi
 
-	fi 
 
 		deslogar $1
 
