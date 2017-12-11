@@ -12,7 +12,7 @@ OPCAO=$(dialog --stdout				\
 	"1" 'Cadastrar item'			\
 	"2" 'Voltar'				)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 

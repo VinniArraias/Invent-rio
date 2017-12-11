@@ -16,7 +16,7 @@ OPCAO=$(dialog --stdout				\
 	"5" 'Voltar')
 
 
-	if [[ $? == "1" ]]
+	if [[ $? == "1" || $? == "255" ]]
         	         then
 	                        #cd /home/vinicius/Projeto/Invent-rio/
 				cd $dir

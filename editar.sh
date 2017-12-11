@@ -47,7 +47,7 @@ NOME=$(dialog	--stdout					\
 	--inputbox 'Entre com a nova descrição do item: ' 	\
 	0 0)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                        #cd /home/vinicius/Projeto/Invent-rio/
 			cd $dir
@@ -130,7 +130,7 @@ DESCRICAO=$(dialog	--stdout						\
 		0 0)
 
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 
@@ -214,7 +214,7 @@ NL=$(dialog      --stdout          	                                        \
                  0 0)
  
  
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $1
 
@@ -281,7 +281,7 @@ OPCAO=$(dialog	--stdout					\
 	"5" 'Voltar'						)
 
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 
@@ -300,7 +300,7 @@ fi
 				0 0)
 
 
-				if [[ $? == "1" ]]
+				if [[ $? == "1" || $? == "255" ]]
          			       then
                         			cd $dir
 
@@ -334,7 +334,7 @@ fi
 					--inputbox 'Entre com o ID para a alteração do nome do ambiente: '	\
 					0 0)
 
-				if [[ $? == "1" ]]
+				if [[ $? == "1" || $? == "255" ]]
 					then
 						cd $dir
 						
@@ -369,7 +369,7 @@ fi
 				0 0)
 
 
-				if [[ $? == "1" ]]
+				if [[ $? == "1" || $? == "255" ]]
                 			then
                        				 cd $dir
 
@@ -405,7 +405,7 @@ fi
 				--inputbox "Entre com o ID do item da localidade $1 para a transferência"	\
 				0 0)
 
-				if [[ $? == "1" ]]
+				if [[ $? == "1" || $? == "255" ]]
 					then
 						cd $dir
 						source editar.sh $1
@@ -436,7 +436,7 @@ fi
         			 done)
 				 LOCALIDADE=$(dialog --stdout --title "Transferência" --menu "Escolha uma localidade:" 0 0 0 $loc)
  
-					if [[ $? == "1" ]]
+					if [[ $? == "1" || $? == "255" ]]
                   					then
                          				cd $dir
 

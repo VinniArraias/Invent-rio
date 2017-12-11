@@ -14,7 +14,7 @@ OPCAO=$(dialog --stdout				\
 	"3" 'Cadastrar usuário'			\
 	"4" 'Voltar'				)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 
@@ -52,6 +52,14 @@ VALUES=$(dialog --ok-label "Cadastrar"				\
 	"Senha                   :" 2 1 "" 2 26 19 0		\
 	"Digite a senha novamente:" 3 1 "" 3 26 19 0		\
 	2>&1 1>&3)
+
+if [[ $? == 1 || $? == 255 ]]
+                then
+
+                        opcao $1
+
+fi
+
 
 exec 3>&-
 
@@ -147,7 +155,7 @@ TIPO_USER=$(dialog	--stdout					\
 		A 'Usuário Administrador'	on			\
 		B 'Usuário Comum'		off			)
 
-	if [[ $? == 1 ]]
+	if [[ $? == 1 || $? == 255 ]]
 		then
 	
 			opcao $1

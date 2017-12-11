@@ -80,7 +80,7 @@ VALUES=$(dialog --ok-label "Entrar"             \
          "Mensagem  :" 2 1 "" 2 10 1000 0             \
          2>&1 1>&3)
 
-         if [[ $? == 1 ]]
+         if [[ $? == 1 || $? == "255" ]]
                  then
  
                         mais_opcoes $2
@@ -169,7 +169,7 @@ OPCAO=$(dialog --stdout						\
 	"3" 'Entre em contato conosco'				\
 	"4" 'Voltar')
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                  then
                         cd $dir
  

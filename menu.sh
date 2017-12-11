@@ -34,7 +34,7 @@ OPCAO=$(dialog --stdout				\
 	"6" 'Sair'				\
 	"7" 'Mais opções')
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
 			cd $dir
 			clear

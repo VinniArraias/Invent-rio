@@ -11,7 +11,7 @@ loc=$(for x in $(cat listagem) ; do
         done)
 OPCAO=$(dialog --stdout --menu "Escolha uma localidade" 0 0 0 $loc)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                  then
                         cd $dir
  

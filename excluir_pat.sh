@@ -120,7 +120,7 @@ PATRIMONIO=$(dialog	--stdout										\
 		--inputbox "Entre com o número do ID do item a ser removido da localidade $CATEGORIA"	\
 		0 0)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 

@@ -17,7 +17,7 @@ OPCAO=$(dialog	--stdout			\
 	"3" 'Deletar usuário'			\
 	"4" 'Voltar'				)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 
@@ -54,7 +54,7 @@ loc=$(for x in $(cat users) ; do
         done)
 USUARIO=$(dialog --stdout --title "Deletação de usuário" --menu "Escolha um usário a ser removido" 0 0 0 $loc)
  
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                  then
                         cd $dir
  

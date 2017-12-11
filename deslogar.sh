@@ -17,7 +17,7 @@ OPCAO=$(dialog --stdout				\
 	"3" 'Voltar')
 
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
                         cd $dir
 

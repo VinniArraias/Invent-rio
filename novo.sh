@@ -28,7 +28,7 @@ CATEGORIA=$(dialog --stdout											\
 
 
 
-		if [[ $? == "1" ]]
+		if [[ $? == "1" || $? == "255" ]]
                 	then
                         	cd $dir
 

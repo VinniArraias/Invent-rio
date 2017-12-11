@@ -25,7 +25,7 @@ loc=$(for x in $(cat listagem) ; do
         done)
 OPCAO=$(dialog --stdout --title "LOCALIDADE" --menu "Escolha uma localidade:" 0 0 0 $loc)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == 255 ]]
                  then
                         #cd /home/vinicius/Projeto/Invent-rio/
 			cd $dir
@@ -71,14 +71,14 @@ VALUES=$(dialog --ok-label "Entrar"		\
 	"Senha  :" 2 1 "" 2 10 40 0 		\
 	2>&1 1>&3)
 
-	if [[ $? == 1 ]]
+	if [[ $? == 1 || $? == 255 ]]
 		then
 			dialog							\
 			--title 'Sair'						\
 			--yesno 'Tem certeza que deseja sair do programa?'	\
 			0 0
 			
-			if [[ $? == 0 ]]
+			if [[ $? == 0 || $? == 255 ]]
 				then
 					clear
 					echo "Good-bye..."

@@ -37,7 +37,7 @@ OPCAO=$(dialog --stdout						\
 	"2" 'Listar com base na categoria'			\
 	"3" 'Voltar'						)
 
-if [[ $? == "1" ]]
+if [[ $? == "1" || $? == "255" ]]
                  then
 			cd $dir
 
@@ -98,7 +98,7 @@ loc=$(for x in $(cat catg.csv) ; do
 OPCAO=$(dialog --stdout --title "CATEGORIAS" --menu "Escolha uma categoria:" 0 0 0 $loc)
 
  
- if [[ $? == "1" ]]
+ if [[ $? == "1" || $? == "255" ]]
                   then
                         #cd /home/vinicius/Projeto/Invent-rio/
 			cd $dir
