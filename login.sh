@@ -157,4 +157,36 @@ done
 incorrect
 }
 
+MENSAGEM_USO="
+Uso: $(basename "$0") [OPÇÕES]
+
+
+OPÇÕES:
+  -h, --help		Exibe informações sobre o programa
+  -V, --version		Exibe a versão do programa
+"
+
+
+case "$1" in
+	-h | --help) echo "$MENSAGEM_USO"
+		     exit 0
+
+		;;
+
+	-V | --version)	echo "Inventário Versão 2.1"
+		     exit 0
+
+		;;
+
+	*)
+	   if test -n "$1"
+		then
+			echo "Opção inválida: $1"
+			exit 1
+	fi
+
+;;
+
+esac
+
 login
