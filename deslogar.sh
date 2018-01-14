@@ -39,7 +39,7 @@ fi
 
                         		 if [[ $? == 0 ]]
                                 		then
-                                         		source login.sh
+                                         		source login.sh pass
                  fi
 
 			deslogar $1

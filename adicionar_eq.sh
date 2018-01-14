@@ -67,7 +67,6 @@ cd $dir/registros/$LOCALIDADE/
 exec 3>&1
 
 VALUES=$(dialog --ok-label "Cadastrar"				\
-	--backtitle "Linux User Managment"			\
 	--title "Cadastrar novo item"				\
 	--form "Entre com os dados do novo item a seguir:"	\
 	15 50 0							\
@@ -138,6 +137,7 @@ for i in $(seq $NUMB)
 	arquivog="$dir/registros/"
 
 day=`date -d -1day |awk '{print$3}'`
+day=$[$day + 1]
 date=`date +%m/%y`
 IMOBILIZACAO="$day/$date"
 

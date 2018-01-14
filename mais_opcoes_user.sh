@@ -61,7 +61,7 @@ validacao(){
 
 			dialog					\
 				--title 'Documentação'		\
-				--msgbox "Documentação..."	\
+				--textbox documentacao		\
 				0 0
 			mais_opcoes $2
 

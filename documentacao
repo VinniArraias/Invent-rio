@@ -1,0 +1,168 @@
+﻿Introdução
+
+   Nós, alunos do CAI Tarde da Escola SENAI De Informática do grupo responsável pelo Inventário, 
+criamos um programa capaz organizar os patrimônios de sua empresa ou qualquer lugar desejado.
+Inventário é o controle de entrada, saída e estoque de itens dentro de um estabelecimento, 
+feito para organizar, nomear, editar, cadastrar ou excluir algum item de sua preferência.
+O objetivo do aplicativo é conseguir manter o controle e organização dos ativos, 
+com um sistema de fácil entendimento e simples manuseio, além de ser muito seguro, 
+com diferentes níveis de acesso para cada um dos usuários.
+
+A instalação do Programa
+
+ Para instalar o programa, no seu terminal, certifique-se que você tem o Git instalado.
+Caso não tenha, instale com “apt-get install git”. Se já tiver, 
+clone nosso repositório com o comando “git clone” no endereço
+http://github.com/Bufferd/Invent-rio. Em seguida entre no diretório que acabou de clonar (Invent-rio), 
+e execute (com o comando “bash”) a “instalacao.sh”. 
+Assim, termine de seguir as instruções e então já se pode usar o programa. 
+Caso tenha outras dúvidas, leia o documento README.md que também traz instruções sobre a instalação.
+
+Login                                             
+
+São disponíveis dois tipos de acesso: o acesso como usuário comum, 
+o que permite apenas a leitura de registros e cadastro de novos itens e o acesso como administrador, 
+que lhe garante poder usar todas as funções que o programa oferece. 
+Caso o usuário erre uma das duas informações pedidas, 
+seja por erro de digitação ou por esquecer o que cadastrou,
+ sua entrada no programa não é permitida mas é possível tentar novamente.                                  
+
+Escolha de Localidade 
+
+Com uma lista de localidades apresentada, o usuário deve escolher com qual deseja trabalhar. 
+Caso queira usar outra localidade, entre com a “Padrão”, cadastre uma nova e “Altere sua localidade atual”.
+
+1. Menu Principal 
+
+ Ao entrar no menu principal, o usuário verá as opções de acordo com seu nível de acesso. 
+Se for administrador, terá a possibilidade de navegar entre todas as opções disponíveis.
+Caso seja um usuário comum, suas opções se limitam a Listar e Cadastrar apenas. 
+
+2. Listar
+
+2.1 Listar Localidades
+
+ Ao selecionar esta opção, o usuário irá visualizar todas as localidades já existentes,
+podendo verificar se seu estabelecimento está ou não cadastrado.
+
+2.2 Listar Itens
+
+Ao selecionar a opção, será aberto um outro menu, que terá acesso a mais três opções:
+ 1. Listar tudo
+ 2. Listar por categoria
+ 3. Voltar
+     Na opção 1, o usuário poderá listar todos os itens já cadastrados nessa localidade. 
+Na opção 2, o usuário poderá escolher apenas uma categoria para listar os itens. 
+
+2.3 Listar Baixas
+
+ Ao selecionar esta opção, o usuário irá ver todos os equipamentos que foram deletados do sistema 
+(ou nesse caso, todos os itens que foram para a baixa), podendo ter controle sobre a saída de patrimônios.
+
+2.4 Listar usuários cadastrados
+
+ Ao selecionar esta opção, é possível visualizar todos os usuários cadastrados no sistema, 
+mas sem a opção de saber os níveis de acesso de cada um dos usuários. 
+
+3. Cadastrar
+
+3.1 Cadastrar localidade
+
+   Ao selecionar esta opção, o usuário terá que preencher apenas um campo,
+que pede o nome da nova localidade a ser criada (que não pode ser igual a uma já existente).
+Se a nova localidade for válida, aparecerá a mensagem confirmando o cadastro: 
+ex. “Localidade criada com sucesso”.
+
+3.2 Cadastrar item
+
+     Ao selecionar esta opção o usuário poderá cadastrar qualquer item desejado.
+Para isso, ele deverá preencher as informações pedidas, que são: a categoria, 
+a descrição, o nome do ambiente em que o item se encontra, 
+o apelido do item e a quantidade que deseja que aquele mesmo item seja cadastrado, e assim, 
+caso tudo seja devidamente preenchido, podem aparecer dois tipos de mensagens de confirmação.
+Caso seja cadastrado um único item, será identificado o número de patrimônio, o ID, do mesmo na mensagem.
+ex.: "Cadastrado com sucesso! Seu número de patrimônio é 000001".
+Ou, se forem cadastrados 2 produtos ou mais, o aviso traz a quantidade que foi cadastrada. 
+Ex.: "3 itens cadastrados com sucesso!".
+
+3.3 Cadastrar usuários
+
+  Ao selecionar esta opção, é necessário preencher os campos apresentados, dando um nome para o novo usuário desejado 
+(que não pode ser igual a um já existente e não pode conter espaços) e uma senha para o respectivo usuário. 
+Em seguida, precisa-se confirmar a senha colocada anteriormente e então, se não houverem erros, a mensagem
+"Usuário (nomeUsuario) cadastrado com sucesso!" aparecerá.
+
+4. Editar
+
+4.1 Editar descrição do item
+
+   Ao selecionar esta opção, o usuário irá poder editar e alterar toda a descrição de algum item, 
+sendo esse identificado pelo ID, que é pedido logo ao escolher essa opção.
+
+4.2 Editar ambiente do item
+
+  Ao selecionar esta opção, o usuário poderá editar o ambiente em que o item está.
+Ex: Um computador está no ambiente “Sala 05” e foitransferido para o “Sala 02”. 
+Nesta opção, você poderá fazer esta alteração.
+
+4.3 Editar apelido do item
+
+  Ao selecionar esta opção, o usuário poderá editar o apelido do item, e assim como na ultima opção, 
+o item em questão também será identificado pelo ID que é a primeira e única informação pedida para confirmar a alteração.
+-
+4.4 Transferir item de localidade
+
+   Ao selecionar esta opção, o usuário irá poder transferir o item desejado para outra localidade.
+Ex: Um teclado que está no “SENAI 132” será transferido para o “SENAI 542”. E em casos como esse, 
+para que o sistema também saiba dessa transferência, existe essa opção para auxiliar o cliente.
+
+5. Deletar
+
+5.1 Deletar localidade 
+
+    Ao selecionar esta opção do menu, o usuário escolherá com a localidade a ser deletada.
+Caso haja essa localidade, ela será deletada; caso contrário, o usuário terá que entrar com uma localidade existente.
+
+5.2 Deletar Item
+
+  Ao selecionar esta opção o usuário entrará com a localidade do produto. Caso a localidade seja válida,
+o usuário entrará com o número do patrimônio do produto a ser removido; caso exista este item,
+então ele será removido. Caso contrário, ele terá de entrar com o número do patrimônio novamente.
+
+5.3 Deletar Usuário
+
+  Ao selecionar esta opção, será possível deletar algum usuário existente, 
+basta escolher na lista o que deseja excluir e confirmar,
+essa opção é útil para remover os usuários que não está na empresa.
+
+5.4 Alterar localidade atual
+
+ Essa é a primeira tela apresentada após o login mas também é possível acessá-la pelo menu. 
+E então ao selecionar esta opção, o usuário tem a chance de trocar a localidade onde serão feitos novos cadastros.
+Uma lista das localidades cadastradas é apresentada e então basta escolher com qual deseja trabalhar no momento.
+Caso seja sua primeira vez no sistema, a única opção disponível é a localidade “Padrão”.
+Todos seus novos registros podem ser feitos nela mas caso deseje outra, basta entrar na “Padrão”, a princípio, 
+cadastrar a nova localidade desejada e então usar essa opção no menu e “Alterar a localidade atual” para sua nova localidade. 
+
+6. Sair
+
+6.1 Encerrar sessão
+   Ao selecionar esta opção, o usuário irá sair do perfil que foi logado, 
+para que consiga ter acesso a outra conta.
+
+6.2 Desligar  
+   Ao selecionar essa opção, o usuário sairá totalmente do programa.
+Para isso, também é possível usar o comando ^C (CTRL+C) do teclado.  
+
+7. Mais opções
+
+7.1 Listar log
+  Ao selecionar esta opção, o usuário poderá consultar todo o histórico de atividade efetuado durante o programa,
+podendo verificar informações como o usuário atual logado, a data, o horário e as opções escolhidas.
+
+7.2 Entre em contato conosco
+
+Com essa opção, é possível que o usuário entre em contato com a equipe de desenvolvimento do software através de um e-mail. 
+Basta colocar uma conta de e-mail válida no primeiro campo e escrever a mensagem que quiser no campo seguinte,
+seja essa referente a erros, dúvidas, sugestões ou qualquer outro assunto que envolva o sistema. 
+

@@ -1,0 +1,968 @@
+
+root | Sex Dez  1 20:58:50 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:11:04 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:11:09 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:11:24 -02 2017 | Função: Deletação
+root | Sex Dez  1 21:11:40 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:11:53 -02 2017 | Função: Deletação
+root | Sex Dez  1 21:12:02 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:12:03 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:12:10 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:12:13 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:12:14 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:12:21 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:12:59 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:13:04 -02 2017 | Função: Logoff
+root | Sex Dez  1 21:13:07 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:13:07 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:13:16 -02 2017 | Função: Mais opções
+root | Sex Dez  1 21:13:19 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:13:52 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:13:57 -02 2017 | Função: Cadastro
+root | Sex Dez  1 21:13:58 -02 2017 | Função: Cadastro de localidades
+root | Sex Dez  1 21:14:03 -02 2017 | Função: Logoff
+root | Sex Dez  1 21:14:08 -02 2017 | Função: Deletação
+root | Sex Dez  1 21:14:10 -02 2017 | Função: Deletação de localidade
+root | Sex Dez  1 21:14:15 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:14:16 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:14:44 -02 2017 | Função: Cadastro
+root | Sex Dez  1 21:14:46 -02 2017 | Função: Cadastro de itens
+root | Sex Dez  1 21:14:55 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:15:07 -02 2017 | Função: Logoff
+root | Sex Dez  1 21:15:10 -02 2017 | Função: Deletação
+root | Sex Dez  1 21:15:14 -02 2017 | Função: Deletação de localidade
+root | Sex Dez  1 21:15:24 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:15:27 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:15:28 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:15:46 -02 2017 | Função: Listagem de localidades
+root | Sex Dez  1 21:25:51 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:25:55 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:25:57 -02 2017 | Função: Listagem de itens
+root | Sex Dez  1 21:26:04 -02 2017 | Função: Cadastro
+root | Sex Dez  1 21:26:05 -02 2017 | Função: Listagem
+root | Sex Dez  1 21:26:08 -02 2017 | Função: Listagem de localidades
+root | Sex Dez  1 21:28:24 -02 2017 | Função: Listagem de itens
+root | Sáb Dez  2 12:04:53 -02 2017 | Função: Listagem de itens
+root | Sáb Dez  2 12:04:57 -02 2017 | Função: Cadastro
+root | Sáb Dez  2 12:05:00 -02 2017 | Função: Listagem
+root | Sáb Dez  2 12:05:03 -02 2017 | Função: Listagem de localidades
+root | Sáb Dez  2 12:05:06 -02 2017 | Função: Listagem
+root | Sáb Dez  2 12:05:07 -02 2017 | Função: Listagem de itens
+root | Sáb Dez  2 12:05:18 -02 2017 | Função: Cadastro
+root | Sáb Dez  2 12:05:19 -02 2017 | Função: Cadastro de localidades
+root | Sáb Dez  2 12:05:24 -02 2017 | Função: Listagem
+root | Sáb Dez  2 12:05:25 -02 2017 | Função: Listagem de itens
+root | Sáb Dez  2 12:17:20 -02 2017 | Função: Listagem de itens
+root | Sáb Dez  2 12:17:25 -02 2017 | Função: Cadastro
+root | Sáb Dez  2 12:17:44 -02 2017 | Função: Listagem
+root | Sáb Dez  2 12:17:44 -02 2017 | Função: Listagem de itens
+root | Sáb Dez  2 12:17:49 -02 2017 | Função: Cadastro
+root | Sáb Dez  2 12:18:01 -02 2017 | Função: Cadastro
+root | Dom Dez  3 16:14:02 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:14:07 -02 2017 | Função: Listagem
+root | Dom Dez  3 16:14:07 -02 2017 | Função: Listagem de localidades
+root | Dom Dez  3 16:14:11 -02 2017 | Função: Listagem
+root | Dom Dez  3 16:14:13 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:14:31 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:20:52 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:20:58 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:01 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:02 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:02 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:02 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:03 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:03 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:03 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:04 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:06 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:07 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:07 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:08 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:09 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:10 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:11 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:12 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:12 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:13 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:13 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:14 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:15 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:16 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:17 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:17 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:18 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:18 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:20 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:29 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:21:31 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:23:18 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:23:21 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:23:23 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:23:24 -02 2017 | Função: Listagem
+root | Dom Dez  3 16:23:40 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:24:04 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:24:30 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:25:29 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:25:40 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:25:44 -02 2017 | Função: Deletação
+root | Dom Dez  3 16:25:45 -02 2017 | Função: Deletação de localidade
+root | Dom Dez  3 16:27:52 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:27:58 -02 2017 | Função: Deletação
+root | Dom Dez  3 16:28:18 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:28:23 -02 2017 | Função: Deletação
+root | Dom Dez  3 16:28:33 -02 2017 | Função: Listagem
+root | Dom Dez  3 16:28:34 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:28:56 -02 2017 | Função: Edição de item
+root | Dom Dez  3 16:29:22 -02 2017 | Função: Cadastro
+fer | Dom Dez  3 16:29:36 -02 2017 | Função: Mais opções
+fer | Dom Dez  3 16:29:38 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:29:45 -02 2017 | Função: Deletação
+fer | Dom Dez  3 16:30:04 -02 2017 | Função: Mais opções
+fer | Dom Dez  3 16:30:05 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:30:10 -02 2017 | Função: Logoff
+fer | Dom Dez  3 16:30:13 -02 2017 | Função: Deletação
+root | Dom Dez  3 16:32:19 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 16:32:23 -02 2017 | Função: Cadastro
+fer | Dom Dez  3 16:32:34 -02 2017 | Função: Mais opções
+fer | Dom Dez  3 16:32:35 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:32:40 -02 2017 | Função: Mais opções
+fer | Dom Dez  3 16:32:42 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:32:44 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:32:45 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:32:50 -02 2017 | Função: Deletação
+fer | Dom Dez  3 16:33:17 -02 2017 | Função: Deletação
+fer | Dom Dez  3 16:33:20 -02 2017 | Função: Mais opções
+fer | Dom Dez  3 16:33:21 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:33:24 -02 2017 | Função: Listagem de itens
+fer | Dom Dez  3 16:33:28 -02 2017 | Função: Deletação
+root | Dom Dez  3 20:03:18 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 20:03:22 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 20:03:23 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 20:03:25 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 20:03:37 -02 2017 | Função: Edição de item
+root | Dom Dez  3 21:18:59 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 21:19:24 -02 2017 | Função: Listagem
+root | Dom Dez  3 21:19:49 -02 2017 | Função: Listagem de localidades
+root | Dom Dez  3 21:19:53 -02 2017 | Função: Cadastro
+root | Dom Dez  3 21:20:24 -02 2017 | Função: Cadastro
+root | Dom Dez  3 21:21:40 -02 2017 | Função: Edição de item
+root | Dom Dez  3 21:23:26 -02 2017 | Função: Deletação
+root | Dom Dez  3 21:26:06 -02 2017 | Função: Mais opções
+root | Dom Dez  3 21:26:22 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 21:27:22 -02 2017 | Função: Listagem de localidades
+root | Dom Dez  3 21:28:29 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 21:28:32 -02 2017 | Função: Mais opções
+root | Dom Dez  3 21:28:35 -02 2017 | Função: Mais opções
+root | Dom Dez  3 21:28:37 -02 2017 | Função: Logoff
+root | Dom Dez  3 21:28:40 -02 2017 | Função: Mais opções
+root | Dom Dez  3 23:03:59 -02 2017 | Função: Cadastros de itens
+root | Dom Dez  3 23:04:04 -02 2017 | Função: Mais opções
+root | Dom Dez  3 23:04:05 -02 2017 | Função: Listagem de log
+root | Dom Dez  3 23:04:30 -02 2017 | Função: Saída
+root | Dom Dez  3 23:04:47 -02 2017 | Função: Cadastros de itens
+root | Dom Dez  3 23:04:51 -02 2017 | Função: Listagem
+root | Dom Dez  3 23:04:55 -02 2017 | Função: Listagem de baixas
+root | Dom Dez  3 23:04:58 -02 2017 | Função: Listagem
+root | Dom Dez  3 23:04:59 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 23:05:39 -02 2017 | Função: Cadastros
+root | Dom Dez  3 23:05:40 -02 2017 | Função: Cadastros de localidades
+root | Dom Dez  3 23:05:43 -02 2017 | Função: Listagem
+root | Dom Dez  3 23:05:43 -02 2017 | Função: Listagem de itens
+root | Dom Dez  3 23:05:48 -02 2017 | Função: Mais opções
+root | Dom Dez  3 23:05:48 -02 2017 | Função: Listagem de log
+root | Dom Dez  3 23:05:59 -02 2017 | Função: Cadastros
+root | Dom Dez  3 23:06:00 -02 2017 | Função: Cadastros de localidades
+root | Dom Dez  3 23:06:04 -02 2017 | Função: Mais opções
+root | Dom Dez  3 23:06:04 -02 2017 | Função: Listagem de log
+admin | Dom Dez  3 23:17:35 -02 2017 | Função: Listagem
+admin | Dom Dez  3 23:17:37 -02 2017 | Função: Listagem de itens
+admin | Dom Dez  3 23:17:41 -02 2017 | Função: Mais opções
+admin | Dom Dez  3 23:17:41 -02 2017 | Função: Listagem de log
+admin | Dom Dez  3 23:38:36 -02 2017 | Função: Listagem
+admin | Dom Dez  3 23:38:37 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez  4 10:35:58 -02 2017 | Função: Listagem
+admin | Seg Dez  4 10:35:59 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 10:36:02 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 10:36:03 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 10:36:13 -02 2017 | Função: Edição
+admin | Seg Dez  4 10:45:36 -02 2017 | Função: Deletação
+admin | Seg Dez  4 10:52:33 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 11:37:40 -02 2017 | Função: Listagem
+admin | Seg Dez  4 11:37:41 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:37:46 -02 2017 | Função: Listagem de baixas
+admin | Seg Dez  4 11:37:51 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 11:37:52 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 11:38:03 -02 2017 | Função: Listagem
+admin | Seg Dez  4 11:38:04 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:38:19 -02 2017 | Função: Deletação
+admin | Seg Dez  4 11:38:20 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 11:38:51 -02 2017 | Função: Listagem
+admin | Seg Dez  4 11:38:51 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:38:56 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 11:38:57 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 11:39:03 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 11:39:03 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 11:39:12 -02 2017 | Função: Listagem
+admin | Seg Dez  4 11:39:13 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:39:18 -02 2017 | Função: Deletação
+admin | Seg Dez  4 11:39:20 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 11:39:27 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:39:33 -02 2017 | Função: Deletação
+admin | Seg Dez  4 11:39:35 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 11:41:31 -02 2017 | Função: Listagem
+admin | Seg Dez  4 11:41:32 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:41:37 -02 2017 | Função: Deletação
+admin | Seg Dez  4 11:41:39 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 11:41:48 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 11:41:54 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 11:41:58 -02 2017 | Função: Deletação
+admin | Seg Dez  4 11:41:59 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 11:42:05 -02 2017 | Função: Deletação
+admin | Seg Dez  4 11:42:06 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 12:51:11 -02 2017 | Função: Listagem
+admin | Seg Dez  4 12:51:11 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 12:51:16 -02 2017 | Função: Deletação
+admin | Seg Dez  4 12:51:18 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:15:49 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:15:49 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:15:56 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:15:58 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:16:05 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:16:05 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:16:13 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:16:15 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:16:23 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:16:23 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:16:59 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:17:00 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:17:03 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 13:17:08 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:17:10 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:17:16 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:17:16 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:17:20 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:17:23 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:20:10 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:20:12 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:20:12 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:20:17 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:20:18 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:20:28 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:20:30 -02 2017 | Função: Listagem de baixas
+admin | Seg Dez  4 13:21:57 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:21:58 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:22:30 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:22:31 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:22:43 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 13:22:45 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:22:45 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:22:47 -02 2017 | Função: Listagem de baixas
+admin | Seg Dez  4 13:23:53 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:23:57 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 13:23:58 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:24:05 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:24:17 -02 2017 | Função: Listagem de baixas
+admin | Seg Dez  4 13:24:20 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez  4 13:24:25 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 13:24:26 -02 2017 | Função: Cadastros de localidades
+admin | Seg Dez  4 13:24:36 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:24:36 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 13:24:38 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:24:51 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 13:24:51 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 13:26:42 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:26:43 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:27:00 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 13:27:02 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 13:27:54 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:27:55 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 13:27:56 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:28:08 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 13:28:10 -02 2017 | Função: Listagem de log
+admin | Seg Dez  4 13:29:12 -02 2017 | Função: Listagem de log
+admin | Seg Dez  4 13:29:26 -02 2017 | Função: Listagem de log
+admin | Seg Dez  4 13:29:35 -02 2017 | Função: Ajuda
+admin | Seg Dez  4 13:29:43 -02 2017 | Função: Ajuda
+admin | Seg Dez  4 13:29:50 -02 2017 | Função: Edição
+admin | Seg Dez  4 13:30:01 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:30:02 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:30:33 -02 2017 | Função: Edição
+admin | Seg Dez  4 13:31:00 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:31:02 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 13:31:14 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 13:31:20 -02 2017 | Função: Edição
+admin | Seg Dez  4 13:31:23 -02 2017 | Função: Edição
+admin | Seg Dez  4 13:31:32 -02 2017 | Função: Saída
+admin | Seg Dez  4 13:31:47 -02 2017 | Função: Desligamento
+admin | Seg Dez  4 13:32:02 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 13:32:05 -02 2017 | Função: Saída
+admin | Seg Dez  4 13:32:07 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 13:32:23 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 13:32:30 -02 2017 | Função: Saída
+admin | Seg Dez  4 13:32:31 -02 2017 | Função: Desligamento
+admin | Seg Dez  4 13:35:59 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:36:02 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 13:36:09 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 13:36:13 -02 2017 | Função: Deletação
+admin | Seg Dez  4 13:36:14 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 13:36:29 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:36:36 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:36:48 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:36:48 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:37:08 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:37:09 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:37:16 -02 2017 | Função: Saída
+admin | Seg Dez  4 13:37:17 -02 2017 | Função: Desligamento
+admin | Seg Dez  4 13:38:38 -02 2017 | Função: Listagem
+admin | Seg Dez  4 13:38:39 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 13:38:43 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez  4 13:38:47 -02 2017 | Função: Saída
+admin | Seg Dez  4 13:38:48 -02 2017 | Função: Desligamento
+admin | Seg Dez  4 14:34:34 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 14:34:51 -02 2017 | Função: Listagem
+admin | Seg Dez  4 14:34:52 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 14:35:31 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 14:39:01 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 14:39:17 -02 2017 | Função: Listagem
+admin | Seg Dez  4 14:39:19 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 14:42:42 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 14:42:54 -02 2017 | Função: Listagem
+admin | Seg Dez  4 14:42:55 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 14:45:53 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 14:49:59 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 14:51:39 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 15:37:02 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:37:06 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 15:38:52 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:38:56 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:38:57 -02 2017 | Função: Cadastros de localidades
+admin | Seg Dez  4 15:39:02 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:39:04 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:39:10 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:39:11 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 15:39:16 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 15:39:18 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 15:39:21 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:39:22 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:39:24 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 15:40:09 -02 2017 | Função: Cadastro de usuários
+admin | Seg Dez  4 15:40:22 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:40:28 -02 2017 | Função: Cadastro de usuários
+admin | Seg Dez  4 15:40:50 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:41:14 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 15:41:15 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:42:16 -02 2017 | Função: Listagem de baixas
+admin | Seg Dez  4 15:42:17 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez  4 15:42:22 -02 2017 | Função: Edição
+admin | Seg Dez  4 15:44:13 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:44:14 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:44:32 -02 2017 | Função: Deletação
+admin | Seg Dez  4 15:44:33 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 15:44:37 -02 2017 | Função: Deletação de itens
+admin | Seg Dez  4 15:44:48 -02 2017 | Função: Deletação
+admin | Seg Dez  4 15:44:50 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 15:44:54 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 15:44:56 -02 2017 | Função: Deletação
+admin | Seg Dez  4 15:44:57 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 15:45:16 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:45:27 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:45:28 -02 2017 | Função: Cadastros de localidades
+admin | Seg Dez  4 15:46:35 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:46:36 -02 2017 | Função: Cadastros de localidades
+admin | Seg Dez  4 15:46:43 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:46:46 -02 2017 | Função: Edição
+admin | Seg Dez  4 15:47:19 -02 2017 | Função: Edição
+admin | Seg Dez  4 15:47:31 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:47:32 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:47:42 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:47:45 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:47:45 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:47:55 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:47:57 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 15:48:09 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 15:48:13 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:48:13 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 15:48:17 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:48:18 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 15:48:45 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:48:46 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 15:48:58 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 15:49:03 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:49:04 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:49:20 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:49:29 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 15:49:31 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:49:34 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 15:49:35 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:49:36 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:49:40 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:49:42 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:49:44 -02 2017 | Função: Saída
+admin | Seg Dez  4 15:49:45 -02 2017 | Função: Desligamento
+admin | Seg Dez  4 15:55:39 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 15:55:41 -02 2017 | Função: Cadastros de itens
+admin | Seg Dez  4 15:56:27 -02 2017 | Função: Listagem
+admin | Seg Dez  4 15:56:27 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 15:56:38 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:00:08 -02 2017 | Função: Listagem
+admin | Seg Dez  4 16:00:08 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 16:00:12 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:00:26 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:03:14 -02 2017 | Função: Listagem
+admin | Seg Dez  4 16:03:15 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 16:03:20 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:04:57 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:04:59 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:05:01 -02 2017 | Função: Listagem
+admin | Seg Dez  4 16:05:02 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 16:07:51 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:10:07 -02 2017 | Função: Listagem
+admin | Seg Dez  4 16:10:08 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 16:10:09 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 16:10:16 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 16:10:18 -02 2017 | Função: Listagem
+admin | Seg Dez  4 16:10:18 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 16:10:19 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 16:10:24 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 16:10:26 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:10:39 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez  4 16:10:40 -02 2017 | Função: Listagem
+admin | Seg Dez  4 16:10:41 -02 2017 | Função: Listagem de localidades
+admin | Seg Dez  4 16:10:42 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 16:10:45 -02 2017 | Função: Listagem de baixas
+admin | Seg Dez  4 16:10:49 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez  4 16:10:56 -02 2017 | Função: Deletação
+admin | Seg Dez  4 16:10:58 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 16:11:03 -02 2017 | Função: Deletação
+admin | Seg Dez  4 16:11:04 -02 2017 | Função: Deletação de localidades
+admin | Seg Dez  4 16:11:08 -02 2017 | Função: Deletação de usuários
+admin | Seg Dez  4 16:11:19 -02 2017 | Função: Deletação de usuários
+admin | Seg Dez  4 16:11:24 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 16:11:25 -02 2017 | Função: Cadastro de usuários
+admin | Seg Dez  4 16:11:33 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:11:34 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:11:41 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:11:41 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:11:45 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:11:45 -02 2017 | Função: Encerramento de sessão
+lsviana | Seg Dez  4 16:11:52 -02 2017 | Função: Deletação
+lsviana | Seg Dez  4 16:11:53 -02 2017 | Função: Deletação de usuários
+lsviana | Seg Dez  4 16:11:59 -02 2017 | Função: Deletação de itens
+lsviana | Seg Dez  4 16:12:09 -02 2017 | Função: Edição
+lsviana | Seg Dez  4 16:13:05 -02 2017 | Função: Edição
+lsviana | Seg Dez  4 16:13:07 -02 2017 | Função: Listagem
+lsviana | Seg Dez  4 16:13:08 -02 2017 | Função: Listagem de itens
+lsviana | Seg Dez  4 16:13:13 -02 2017 | Função: Edição
+lsviana | Seg Dez  4 16:13:56 -02 2017 | Função: Mais opções
+lsviana | Seg Dez  4 16:13:57 -02 2017 | Função: Listagem de log
+lsviana | Seg Dez  4 16:13:58 -02 2017 | Função: Ajuda
+lsviana | Seg Dez  4 16:14:05 -02 2017 | Função: Saída
+lsviana | Seg Dez  4 16:14:05 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:14:14 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:15:11 -02 2017 | Função: Cadastros
+admin | Seg Dez  4 16:15:13 -02 2017 | Função: Edição
+admin | Seg Dez  4 16:15:35 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:15:38 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:15:57 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:15:59 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:17:03 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:17:05 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:18:10 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:18:11 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 16:18:19 -02 2017 | Função: Saída
+admin | Seg Dez  4 16:18:19 -02 2017 | Função: Encerramento de sessão
+admin | Seg Dez  4 19:23:48 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 19:23:50 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 19:23:51 -02 2017 | Função: Listagem de log
+admin | Seg Dez  4 19:24:01 -02 2017 | Função: Listagem
+admin | Seg Dez  4 19:24:02 -02 2017 | Função: Listagem de itens
+admin | Seg Dez  4 19:42:47 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 19:42:48 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 19:44:09 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 19:45:06 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 19:58:14 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 19:58:15 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 20:02:20 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 20:02:21 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 20:34:10 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 20:34:11 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 20:37:09 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 20:37:10 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 20:38:08 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 20:38:09 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 20:57:53 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 20:57:53 -02 2017 | Função: Ajuda
+admin | Seg Dez  4 20:58:17 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 20:58:20 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 20:58:27 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 21:02:23 -02 2017 | Função: Mais opções
+admin | Seg Dez  4 21:02:26 -02 2017 | Função: Entrada de contato
+admin | Seg Dez  4 21:02:27 -02 2017 | Função: Listagem de log
+admin | Seg Dez  4 21:02:28 -02 2017 | Função: Listagem de log
+admin | Seg Dez  4 21:02:29 -02 2017 | Função: Entrada de contato
+admin | Ter Dez  5 12:50:05 -02 2017 | Função: Mais opções
+admin | Ter Dez  5 13:06:40 -02 2017 | Função: Mais opções
+admin | Ter Dez  5 13:06:41 -02 2017 | Função: Entrada de contato
+admin | Ter Dez  5 13:08:32 -02 2017 | Função: Mais opções
+admin | Ter Dez  5 13:08:35 -02 2017 | Função: Ajuda
+admin | Ter Dez  5 13:08:36 -02 2017 | Função: Entrada de contato
+admin | Ter Dez  5 13:10:04 -02 2017 | Função: Cadastros
+admin | Ter Dez  5 13:10:06 -02 2017 | Função: Cadastros de itens
+admin | Ter Dez  5 13:10:36 -02 2017 | Função: Mais opções
+admin | Ter Dez  5 13:10:37 -02 2017 | Função: Entrada de contato
+admin | Ter Dez  5 13:17:05 -02 2017 | Função: Mais opções
+admin | Ter Dez  5 13:17:06 -02 2017 | Função: Entrada de contato
+admin | Ter Dez  5 13:20:22 -02 2017 | Função: Mais opções
+admin | Ter Dez  5 13:20:23 -02 2017 | Função: Entrada de contato
+admin | Ter Dez  5 13:22:40 -02 2017 | Função: Cadastros
+admin | Ter Dez  5 13:22:41 -02 2017 | Função: Cadastros de itens
+admin | Ter Dez  5 13:28:25 -02 2017 | Função: Cadastros
+admin | Ter Dez  5 13:28:25 -02 2017 | Função: Cadastros de localidades
+admin | Ter Dez  5 13:28:31 -02 2017 | Função: Alteração de localidade
+admin | Ter Dez  5 13:28:34 -02 2017 | Função: Deletação
+admin | Ter Dez  5 13:28:35 -02 2017 | Função: Deletação de localidades
+admin | Ter Dez  5 13:28:43 -02 2017 | Função: Listagem
+admin | Ter Dez  5 13:28:45 -02 2017 | Função: Listagem de localidades
+admin | Ter Dez  5 13:32:34 -02 2017 | Função: Cadastros
+admin | Ter Dez  5 13:32:35 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez  5 13:32:40 -02 2017 | Função: Deletação
+admin | Ter Dez  5 13:32:41 -02 2017 | Função: Deletação de usuários
+admin | Ter Dez  5 13:32:48 -02 2017 | Função: Deletação de usuários
+admin | Ter Dez  5 13:32:51 -02 2017 | Função: Listagem
+admin | Ter Dez  5 13:32:51 -02 2017 | Função: Listagem de baixas
+admin | Ter Dez  5 13:32:53 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Ter Dez  5 13:35:24 -02 2017 | Função: Listagem
+admin | Ter Dez  5 13:35:25 -02 2017 | Função: Listagem de itens
+admin | Ter Dez  5 13:35:33 -02 2017 | Função: Deletação
+admin | Ter Dez  5 13:35:34 -02 2017 | Função: Deletação de itens
+admin | Ter Dez  5 13:35:45 -02 2017 | Função: Deletação
+admin | Ter Dez  5 13:35:46 -02 2017 | Função: Deletação de itens
+admin | Ter Dez  5 13:36:16 -02 2017 | Função: Deletação
+admin | Ter Dez  5 13:36:17 -02 2017 | Função: Deletação de itens
+admin | Ter Dez  5 13:36:22 -02 2017 | Função: Listagem
+admin | Ter Dez  5 13:36:23 -02 2017 | Função: Listagem de itens
+admin | Ter Dez  5 13:36:27 -02 2017 | Função: Deletação
+admin | Ter Dez  5 13:36:29 -02 2017 | Função: Deletação de itens
+admin | Ter Dez  5 13:37:06 -02 2017 | Função: Listagem
+admin | Ter Dez  5 13:46:45 -02 2017 | Função: Cadastros
+admin | Ter Dez  5 13:46:46 -02 2017 | Função: Cadastros de localidades
+admin | Ter Dez  5 13:46:51 -02 2017 | Função: Saída
+admin | Ter Dez  5 13:46:55 -02 2017 | Função: Saída
+admin | Ter Dez  5 13:46:55 -02 2017 | Função: Encerramento de sessão
+admin | Ter Dez  5 15:35:34 -02 2017 | Função: Listagem
+admin | Ter Dez  5 15:38:19 -02 2017 | Função: Listagem
+admin | Ter Dez  5 15:38:23 -02 2017 | Função: Listagem de itens
+admin | Ter Dez  5 15:54:25 -02 2017 | Função: Listagem
+admin | Ter Dez  5 15:54:30 -02 2017 | Função: Listagem de localidades
+admin | Ter Dez  5 15:54:32 -02 2017 | Função: Listagem de itens
+admin | Ter Dez  5 15:54:43 -02 2017 | Função: Cadastros
+admin | Ter Dez  5 15:54:45 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez  5 15:54:59 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez  5 15:55:32 -02 2017 | Função: Listagem
+admin | Ter Dez  5 15:55:36 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Ter Dez  5 15:56:09 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Ter Dez  5 15:57:06 -02 2017 | Função: Saída
+admin | Ter Dez  5 15:57:27 -02 2017 | Função: Encerramento de sessão
+rola | Ter Dez  5 15:57:47 -02 2017 | Função: Listagem
+rola | Ter Dez  5 15:57:48 -02 2017 | Função: Listagem de itens
+rola | Ter Dez  5 15:58:03 -02 2017 | Função: Listagem de itens
+rola | Ter Dez  5 15:58:19 -02 2017 | Função: Mais opções
+rola | Ter Dez  5 15:58:23 -02 2017 | Função: Entrada de contato
+admin | Qua Dez  6 13:27:48 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 13:27:49 -02 2017 | Função: Cadastros de itens
+admin | Qua Dez  6 13:27:56 -02 2017 | Função: Listagem
+admin | Qua Dez  6 13:27:56 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 13:28:09 -02 2017 | Função: Edição
+admin | Qua Dez  6 13:29:24 -02 2017 | Função: Edição
+admin | Qua Dez  6 13:32:08 -02 2017 | Função: Listagem
+admin | Qua Dez  6 13:32:08 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 13:32:16 -02 2017 | Função: Deletação
+admin | Qua Dez  6 13:32:17 -02 2017 | Função: Deletação de itens
+admin | Qua Dez  6 13:32:25 -02 2017 | Função: Listagem
+admin | Qua Dez  6 13:32:28 -02 2017 | Função: Listagem de baixas
+admin | Qua Dez  6 14:36:38 -02 2017 | Função: Listagem
+admin | Qua Dez  6 14:36:48 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qua Dez  6 14:36:51 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 14:37:14 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 14:37:15 -02 2017 | Função: Cadastros de itens
+admin | Qua Dez  6 16:10:26 -02 2017 | Função: Deletação
+admin | Qua Dez  6 16:10:27 -02 2017 | Função: Deletação de localidades
+admin | Qua Dez  6 16:10:37 -02 2017 | Função: Listagem
+admin | Qua Dez  6 16:10:38 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 16:11:46 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 16:11:47 -02 2017 | Função: Cadastros de localidades
+admin | Qua Dez  6 16:11:51 -02 2017 | Função: Saída
+admin | Qua Dez  6 16:11:52 -02 2017 | Função: Desligamento
+admin | Qua Dez  6 16:11:57 -02 2017 | Função: Deletação
+admin | Qua Dez  6 16:12:03 -02 2017 | Função: Deletação
+admin | Qua Dez  6 16:12:05 -02 2017 | Função: Deletação de localidades
+admin | Qua Dez  6 16:13:13 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 16:13:14 -02 2017 | Função: Cadastros de itens
+admin | Qua Dez  6 16:13:18 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 16:13:19 -02 2017 | Função: Cadastros de localidades
+admin | Qua Dez  6 16:13:24 -02 2017 | Função: Alteração de localidade
+admin | Qua Dez  6 16:13:27 -02 2017 | Função: Deletação
+admin | Qua Dez  6 16:13:29 -02 2017 | Função: Deletação de localidades
+admin | Qua Dez  6 16:13:34 -02 2017 | Função: Listagem
+admin | Qua Dez  6 16:13:35 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 21:18:44 -02 2017 | Função: Listagem
+admin | Qua Dez  6 21:18:50 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 21:18:51 -02 2017 | Função: Cadastro de usuários
+admin | Qua Dez  6 21:19:00 -02 2017 | Função: Saída
+admin | Qua Dez  6 21:19:01 -02 2017 | Função: Desligamento
+vini | Qua Dez  6 21:19:25 -02 2017 | Função: Listagem
+admin | Qua Dez  6 21:22:22 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:24:52 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:24:55 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:24:55 -02 2017 | Função: Listagem de itens
+vini | Qua Dez  6 22:25:04 -02 2017 | Função: Cadastros
+vini | Qua Dez  6 22:25:05 -02 2017 | Função: Cadastros de itens
+vini | Qua Dez  6 22:26:22 -02 2017 | Função: Cadastros
+vini | Qua Dez  6 22:26:23 -02 2017 | Função: Cadastros de itens
+vini | Qua Dez  6 22:26:29 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:26:29 -02 2017 | Função: Listagem de localidades
+vini | Qua Dez  6 22:26:30 -02 2017 | Função: Listagem de itens
+vini | Qua Dez  6 22:27:05 -02 2017 | Função: Alteração de localidade
+vini | Qua Dez  6 22:27:11 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:27:13 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:27:14 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:27:15 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:27:16 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:27:17 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:28:01 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:28:02 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:28:04 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:28:05 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:28:10 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:28:11 -02 2017 | Função: Desligamento
+admin | Qua Dez  6 22:28:16 -02 2017 | Função: Saída
+admin | Qua Dez  6 22:28:16 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:29:01 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:29:02 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:29:16 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:29:17 -02 2017 | Função: Encerramento de sessão
+admin | Qua Dez  6 22:29:22 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 22:29:22 -02 2017 | Função: Cadastros de localidades
+admin | Qua Dez  6 22:29:27 -02 2017 | Função: Listagem
+admin | Qua Dez  6 22:29:27 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 22:29:31 -02 2017 | Função: Listagem de localidades
+admin | Qua Dez  6 22:29:36 -02 2017 | Função: Saída
+admin | Qua Dez  6 22:29:36 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:29:43 -02 2017 | Função: Alteração de localidade
+vini | Qua Dez  6 22:29:46 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:29:47 -02 2017 | Função: Listagem de itens
+vini | Qua Dez  6 22:29:53 -02 2017 | Função: Alteração de localidade
+vini | Qua Dez  6 22:29:55 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:29:56 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 22:34:54 -02 2017 | Função: Saída
+admin | Qua Dez  6 22:34:56 -02 2017 | Função: Encerramento de sessão
+vini | Qua Dez  6 22:35:05 -02 2017 | Função: Saída
+vini | Qua Dez  6 22:35:08 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:35:08 -02 2017 | Função: Listagem de itens
+vini | Qua Dez  6 22:35:34 -02 2017 | Função: Mais opções
+vini | Qua Dez  6 22:35:35 -02 2017 | Função: Listagem de log
+vini | Qua Dez  6 22:36:00 -02 2017 | Função: Entrada de contato
+vini | Qua Dez  6 22:36:19 -02 2017 | Função: Listagem
+vini | Qua Dez  6 22:36:20 -02 2017 | Função: Listagem de itens
+vini | Qua Dez  6 22:39:38 -02 2017 | Função: Mais opções
+vini | Qua Dez  6 22:39:38 -02 2017 | Função: Entrada de contato
+admin | Qua Dez  6 22:54:52 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 22:54:53 -02 2017 | Função: Cadastro de usuários
+admin | Qua Dez  6 22:58:03 -02 2017 | Função: Listagem
+admin | Qua Dez  6 22:58:05 -02 2017 | Função: Listagem de itens
+admin | Qua Dez  6 22:58:08 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qua Dez  6 22:58:13 -02 2017 | Função: Saída
+admin | Qua Dez  6 22:58:15 -02 2017 | Função: Encerramento de sessão
+admin | Qua Dez  6 22:59:41 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 22:59:42 -02 2017 | Função: Cadastro de usuários
+admin | Qua Dez  6 23:02:14 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 23:02:41 -02 2017 | Função: Cadastros
+admin | Qua Dez  6 23:02:43 -02 2017 | Função: Cadastro de usuários
+admin | Qua Dez  6 23:02:56 -02 2017 | Função: Saída
+admin | Qua Dez  6 23:02:59 -02 2017 | Função: Encerramento de sessão
+michelle | Qua Dez  6 23:03:12 -02 2017 | Função: Cadastros
+michelle | Qua Dez  6 23:03:13 -02 2017 | Função: Cadastro de usuários
+michelle | Qua Dez  6 23:03:37 -02 2017 | Função: Saída
+michelle | Qua Dez  6 23:03:37 -02 2017 | Função: Encerramento de sessão
+mmm | Qua Dez  6 23:03:44 -02 2017 | Função: Cadastros
+mmm | Qua Dez  6 23:03:47 -02 2017 | Função: Cadastros
+mmm | Qua Dez  6 23:03:47 -02 2017 | Função: Cadastros de itens
+mmm | Qua Dez  6 23:03:54 -02 2017 | Função: Listagem
+mmm | Qua Dez  6 23:03:55 -02 2017 | Função: Listagem de itens
+mmm | Qua Dez  6 23:04:07 -02 2017 | Função: Saída
+mmm | Qua Dez  6 23:04:08 -02 2017 | Função: Encerramento de sessão
+admin | Qua Dez  6 23:08:45 -02 2017 | Função: Saída
+admin | Qua Dez  6 23:08:45 -02 2017 | Função: Encerramento de sessão
+admin | Qui Dez  7 13:30:34 -02 2017 | Função: Listagem
+admin | Qui Dez  7 13:30:35 -02 2017 | Função: Listagem de itens
+admin | Qui Dez  7 13:30:43 -02 2017 | Função: Listagem
+admin | Qui Dez  7 13:30:45 -02 2017 | Função: Listagem de itens
+admin | Qui Dez  7 14:17:32 -02 2017 | Função: Listagem
+admin | Qui Dez  7 14:17:33 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 14:17:51 -02 2017 | Função: Listagem de localidades
+admin | Qui Dez  7 14:18:07 -02 2017 | Função: Alteração de localidade
+admin | Qui Dez  7 14:18:26 -02 2017 | Função: Listagem
+admin | Qui Dez  7 14:18:29 -02 2017 | Função: Listagem
+admin | Qui Dez  7 14:18:29 -02 2017 | Função: Listagem de localidades
+admin | Qui Dez  7 14:18:30 -02 2017 | Função: Listagem de itens
+admin | Qui Dez  7 14:18:50 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 14:18:59 -02 2017 | Função: Listagem
+admin | Qui Dez  7 14:19:00 -02 2017 | Função: Listagem de localidades
+admin | Qui Dez  7 14:19:07 -02 2017 | Função: Mais opções
+admin | Qui Dez  7 14:19:30 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 14:19:32 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 14:19:44 -02 2017 | Função: Saída
+admin | Qui Dez  7 14:19:45 -02 2017 | Função: Encerramento de sessão
+admin | Qui Dez  7 14:20:38 -02 2017 | Função: Deletação
+admin | Qui Dez  7 14:20:40 -02 2017 | Função: Deletação de itens
+admin | Qui Dez  7 14:20:47 -02 2017 | Função: Deletação
+admin | Qui Dez  7 14:20:48 -02 2017 | Função: Deletação de itens
+admin | Qui Dez  7 14:21:20 -02 2017 | Função: Deletação
+admin | Qui Dez  7 14:21:23 -02 2017 | Função: Deletação de itens
+admin | Qui Dez  7 14:25:17 -02 2017 | Função: Deletação
+admin | Qui Dez  7 14:56:35 -02 2017 | Função: Deletação
+admin | Qui Dez  7 14:56:36 -02 2017 | Função: Deletação de itens
+admin | Qui Dez  7 21:32:40 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 21:32:45 -02 2017 | Função: Cadastros de itens
+admin | Qui Dez  7 21:44:45 -02 2017 | Função: Listagem
+admin | Qui Dez  7 21:44:46 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 21:44:52 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 21:44:57 -02 2017 | Função: Deletação
+admin | Qui Dez  7 21:44:58 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:04 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:07 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:13 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:15 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:18 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:21 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 21:46:22 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 21:46:31 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 21:46:32 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 21:46:37 -02 2017 | Função: Listagem
+admin | Qui Dez  7 21:46:38 -02 2017 | Função: Listagem de itens
+admin | Qui Dez  7 21:46:45 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 21:46:48 -02 2017 | Função: Deletação
+admin | Qui Dez  7 21:46:50 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:46:56 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:49:48 -02 2017 | Função: Listagem
+admin | Qui Dez  7 21:49:49 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 21:49:53 -02 2017 | Função: Listagem
+admin | Qui Dez  7 21:49:55 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 21:49:57 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 21:49:58 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 21:50:04 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 21:50:09 -02 2017 | Função: Listagem
+admin | Qui Dez  7 21:50:12 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 21:50:15 -02 2017 | Função: Deletação
+admin | Qui Dez  7 21:50:16 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:50:19 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:50:34 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 21:54:04 -02 2017 | Função: Listagem
+admin | Qui Dez  7 21:54:05 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 21:54:14 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 21:54:15 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 21:54:24 -02 2017 | Função: Saída
+admin | Qui Dez  7 21:54:24 -02 2017 | Função: Encerramento de sessão
+vinicius | Qui Dez  7 21:54:30 -02 2017 | Função: Listagem
+vinicius | Qui Dez  7 21:54:30 -02 2017 | Função: Listagem de itens
+vinicius | Qui Dez  7 21:54:35 -02 2017 | Função: Cadastros
+vinicius | Qui Dez  7 21:54:37 -02 2017 | Função: Cadastro de usuários
+vinicius | Qui Dez  7 21:54:46 -02 2017 | Função: Cadastro de usuários
+vinicius | Qui Dez  7 21:54:54 -02 2017 | Função: Listagem
+vinicius | Qui Dez  7 21:54:55 -02 2017 | Função: Listagem de usuários cadastrados
+vinicius | Qui Dez  7 21:54:58 -02 2017 | Função: Deletação
+vinicius | Qui Dez  7 21:54:59 -02 2017 | Função: Deletação de usuários
+vinicius | Qui Dez  7 21:55:06 -02 2017 | Função: Deletação de usuários
+vinicius | Qui Dez  7 21:56:06 -02 2017 | Função: Listagem
+vinicius | Qui Dez  7 21:56:06 -02 2017 | Função: Listagem de itens
+vinicius | Qui Dez  7 21:56:09 -02 2017 | Função: Listagem de usuários cadastrados
+vinicius | Qui Dez  7 21:56:15 -02 2017 | Função: Cadastros
+vinicius | Qui Dez  7 21:56:16 -02 2017 | Função: Cadastro de usuários
+vinicius | Qui Dez  7 21:56:33 -02 2017 | Função: Cadastro de usuários
+vinicius | Qui Dez  7 21:56:39 -02 2017 | Função: Deletação
+vinicius | Qui Dez  7 21:56:40 -02 2017 | Função: Deletação de usuários
+vinicius | Qui Dez  7 21:56:59 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 22:00:13 -02 2017 | Função: Listagem
+admin | Qui Dez  7 22:00:13 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 22:08:17 -02 2017 | Função: Listagem
+admin | Qui Dez  7 22:08:18 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 22:08:21 -02 2017 | Função: Cadastros
+admin | Qui Dez  7 22:08:22 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 22:08:27 -02 2017 | Função: Cadastro de usuários
+admin | Qui Dez  7 22:08:34 -02 2017 | Função: Listagem
+admin | Qui Dez  7 22:08:35 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Qui Dez  7 22:08:42 -02 2017 | Função: Deletação
+admin | Qui Dez  7 22:08:43 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 22:08:48 -02 2017 | Função: Deletação de usuários
+admin | Qui Dez  7 22:36:57 -02 2017 | Função: Mais opções
+admin | Qui Dez  7 22:36:59 -02 2017 | Função: Listagem de log
+admin | Qui Dez  7 22:37:20 -02 2017 | Função: Saída
+admin | Qui Dez  7 22:37:21 -02 2017 | Função: Desligamento
+admin | Qui Dez  7 22:53:04 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:12:14 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:12:14 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:12:23 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:12:41 -02 2017 | Função: Listagem
+admin | Sex Dez  8 13:12:42 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Sex Dez  8 13:12:46 -02 2017 | Função: Deletação
+admin | Sex Dez  8 13:12:47 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:12:53 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:12:54 -02 2017 | Função: Encerramento de sessão
+admin | Sex Dez  8 13:13:01 -02 2017 | Função: Deletação
+admin | Sex Dez  8 13:13:01 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:13:09 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:13:10 -02 2017 | Função: Encerramento de sessão
+admin | Sex Dez  8 13:19:15 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:19:17 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:19:24 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:19:30 -02 2017 | Função: Deletação
+admin | Sex Dez  8 13:19:31 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:19:36 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:19:38 -02 2017 | Função: Encerramento de sessão
+admin | Sex Dez  8 13:19:44 -02 2017 | Função: Deletação
+admin | Sex Dez  8 13:19:44 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:22:01 -02 2017 | Função: Listagem
+admin | Sex Dez  8 13:22:01 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Sex Dez  8 13:22:04 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:22:06 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:23:25 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:23:25 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:23:35 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:25:26 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:25:27 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:25:37 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:26:47 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:26:48 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:28:24 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:28:25 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:29:32 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:29:34 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:30:22 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:30:23 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:31:15 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:31:16 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:31:52 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:31:53 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:34:55 -02 2017 | Função: Deletação
+admin | Sex Dez  8 13:34:56 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:34:59 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:01 -02 2017 | Função: Deletação de itens
+admin | Sex Dez  8 13:35:03 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:06 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:09 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:12 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:15 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:17 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:19 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:22 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:24 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:26 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:28 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 13:35:38 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:35:49 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:35:50 -02 2017 | Função: Desligamento
+admin | Sex Dez  8 13:41:49 -02 2017 | Função: Cadastros
+admin | Sex Dez  8 13:41:51 -02 2017 | Função: Cadastro de usuários
+admin | Sex Dez  8 13:42:19 -02 2017 | Função: Saída
+admin | Sex Dez  8 13:42:21 -02 2017 | Função: Encerramento de sessão
+viih | Sex Dez  8 13:42:42 -02 2017 | Função: Cadastros
+viih | Sex Dez  8 13:43:55 -02 2017 | Função: Cadastro de usuários
+viih | Sex Dez  8 13:44:11 -02 2017 | Função: Saída
+viih | Sex Dez  8 13:44:12 -02 2017 | Função: Desligamento
+viih | Sex Dez  8 13:44:17 -02 2017 | Função: Encerramento de sessão
+viih | Sex Dez  8 13:44:29 -02 2017 | Função: Deletação
+viih | Sex Dez  8 13:44:31 -02 2017 | Função: Deletação de usuários
+admin | Sex Dez  8 14:36:52 -02 2017 | Função: Listagem
+admin | Sex Dez  8 14:36:55 -02 2017 | Função: Listagem de itens
+admin | Sex Dez  8 16:38:59 -02 2017 | Função: Saída
+admin | Sex Dez  8 16:39:01 -02 2017 | Função: Desligamento
+admin | Seg Dez 11 20:49:58 -02 2017 | Função: Listagem
+admin | Seg Dez 11 20:49:59 -02 2017 | Função: Listagem
+admin | Seg Dez 11 20:50:01 -02 2017 | Função: Listagem
+admin | Seg Dez 11 20:50:02 -02 2017 | Função: Listagem de itens
+admin | Seg Dez 11 20:50:05 -02 2017 | Função: Alteração de localidade
+admin | Seg Dez 11 20:50:08 -02 2017 | Função: Listagem
+admin | Seg Dez 11 20:50:09 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez 11 20:50:12 -02 2017 | Função: Listagem
+admin | Seg Dez 11 20:50:13 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Seg Dez 11 20:50:19 -02 2017 | Função: Saída
+admin | Seg Dez 11 21:33:07 -02 2017 | Função: Mais opções
+admin | Seg Dez 11 21:33:08 -02 2017 | Função: Ajuda
+admin | Seg Dez 11 21:33:58 -02 2017 | Função: Mais opções
+admin | Seg Dez 11 21:33:59 -02 2017 | Função: Ajuda
+admin | Ter Dez 12 12:04:09 -02 2017 | Função: Listagem
+admin | Ter Dez 12 12:08:29 -02 2017 | Função: Mais opções
+admin | Ter Dez 12 12:08:30 -02 2017 | Função: Ajuda
+admin | Ter Dez 12 12:10:02 -02 2017 | Função: Saída
+admin | Ter Dez 12 12:10:04 -02 2017 | Função: Encerramento de sessão
+admin | Ter Dez 12 12:19:21 -02 2017 | Função: Listagem
+admin | Ter Dez 12 12:19:22 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Ter Dez 12 12:19:25 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 12:19:26 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez 12 12:19:33 -02 2017 | Função: Saída
+admin | Ter Dez 12 12:19:34 -02 2017 | Função: Encerramento de sessão
+admin | Ter Dez 12 12:30:28 -02 2017 | Função: Saída
+admin | Ter Dez 12 12:30:28 -02 2017 | Função: Encerramento de sessão
+admin | Ter Dez 12 12:42:29 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 12:42:30 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez 12 12:42:38 -02 2017 | Função: Saída
+admin | Ter Dez 12 12:42:38 -02 2017 | Função: Encerramento de sessão
+bre | Ter Dez 12 12:42:46 -02 2017 | Função: Edição
+bre | Ter Dez 12 12:42:48 -02 2017 | Função: Cadastros
+bre | Ter Dez 12 12:42:49 -02 2017 | Função: Cadastro de usuários
+bre | Ter Dez 12 12:42:55 -02 2017 | Função: Saída
+bre | Ter Dez 12 12:42:57 -02 2017 | Função: Encerramento de sessão
+admin | Ter Dez 12 13:00:05 -02 2017 | Função: Listagem
+admin | Ter Dez 12 13:00:06 -02 2017 | Função: Listagem de itens
+admin | Ter Dez 12 13:00:15 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 13:00:17 -02 2017 | Função: Cadastros de itens
+admin | Ter Dez 12 13:00:33 -02 2017 | Função: Listagem
+admin | Ter Dez 12 13:00:33 -02 2017 | Função: Listagem de itens
+admin | Ter Dez 12 14:01:01 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:01:02 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez 12 14:02:48 -02 2017 | Função: Deletação
+admin | Ter Dez 12 14:02:49 -02 2017 | Função: Deletação de usuários
+admin | Ter Dez 12 14:04:36 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:04:39 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez 12 14:05:08 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:05:10 -02 2017 | Função: Listagem
+admin | Ter Dez 12 14:05:11 -02 2017 | Função: Listagem de usuários cadastrados
+admin | Ter Dez 12 14:05:15 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:05:16 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez 12 14:05:32 -02 2017 | Função: Listagem
+admin | Ter Dez 12 14:05:33 -02 2017 | Função: Deletação
+admin | Ter Dez 12 14:05:35 -02 2017 | Função: Edição
+admin | Ter Dez 12 14:11:48 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:11:49 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:12:17 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:13:29 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:13:30 -02 2017 | Função: Listagem
+admin | Ter Dez 12 14:13:32 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:13:33 -02 2017 | Função: Cadastro de usuários
+admin | Ter Dez 12 14:19:46 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:19:47 -02 2017 | Função: Cadastros de localidades
+admin | Ter Dez 12 14:19:50 -02 2017 | Função: Listagem
+admin | Ter Dez 12 14:19:53 -02 2017 | Função: Cadastros
+admin | Ter Dez 12 14:19:55 -02 2017 | Função: Cadastros de itens
+admin | Ter Dez 12 14:20:04 -02 2017 | Função: Listagem
+admin | Ter Dez 12 14:20:04 -02 2017 | Função: Listagem de itens
+admin | Ter Dez 12 16:50:16 -02 2017 | Função: Mais opções
+admin | Ter Dez 12 16:50:17 -02 2017 | Função: Ajuda
+admin | Qua Dez 13 14:42:14 -02 2017 | Função: Cadastros
+admin | Qua Dez 13 14:42:15 -02 2017 | Função: Cadastros de localidades
+admin | Qua Dez 13 14:42:20 -02 2017 | Função: Listagem
+admin | Qua Dez 13 14:42:22 -02 2017 | Função: Listagem de localidades
+admin | Qua Dez 13 14:42:24 -02 2017 | Função: Alteração de localidade
+admin | Qua Dez 13 14:42:25 -02 2017 | Função: Listagem
+admin | Qua Dez 13 14:42:26 -02 2017 | Função: Listagem de localidades
+admin | Qua Dez 13 14:42:27 -02 2017 | Função: Listagem de itens
+admin | Qua Jan  3 00:07:13 -02 2018 | Função: Listagem
+admin | Qua Jan  3 00:07:15 -02 2018 | Função: Listagem de usuários cadastrados
+admin | Qua Jan  3 00:07:20 -02 2018 | Função: Mais opções
+admin | Qua Jan  3 00:07:21 -02 2018 | Função: Listagem de log
+admin | Qua Jan  3 00:07:59 -02 2018 | Função: Listagem de log
+admin | Qua Jan  3 00:08:00 -02 2018 | Função: Listagem de log
+admin | Qua Jan  3 00:08:00 -02 2018 | Função: Listagem de log
+admin | Qua Jan  3 00:08:01 -02 2018 | Função: Listagem de log
+admin | Qua Jan  3 00:08:06 -02 2018 | Função: Saída
+admin | Qua Jan  3 00:08:06 -02 2018 | Função: Encerramento de sessão

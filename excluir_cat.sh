@@ -82,7 +82,7 @@ cd $dir/registros/
 
 rm -rf $CATEGORIA
 
-grep -Riv $CATEGORIA listagem > listag
+grep -xv $CATEGORIA listagem > listag
 
 cat listag > listagem
 

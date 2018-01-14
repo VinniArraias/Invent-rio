@@ -108,7 +108,7 @@ dialog 								\
 	0 0
 
 
-source menu.sh $1
+source op2.sh $1
 
 }
 

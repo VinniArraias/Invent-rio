@@ -36,7 +36,7 @@ fi
 cd $dir/registros/
 
 
-TIPO_USER=$(grep $1 users.csv | cut -d";" -f3)
+TIPO_USER=$(grep ^"$1;" users.csv | cut -d";" -f3)
 
 
 	if [[ $TIPO_USER == "A" ]]
@@ -63,7 +63,7 @@ cd $dir
 
 exec 3>&1
 VALUES=$(dialog --ok-label "Entrar"		\
-	--backtitle "Linux User Managment"	\
+	--backtitle "Linux Inventário"		\
 	--title "Login"				\
 	--form "Inventário"			\
 	15 50 0					\
@@ -132,7 +132,7 @@ for x in $(cat users)
 	do
 		if [[ $x == $LOGIN ]]
 			then
-				SHAUSER=$(grep $x users.csv | cut -d";" -f2)
+				SHAUSER=$(grep ^"$x;" users.csv | cut -d";" -f2) #coloquei -x
 
 
 					if [[ $SHASENHA == $SHAUSER ]]
@@ -178,6 +178,9 @@ case "$1" in
 
 		;;
 
+	pass) login
+
+		;;
 	*)
 	   if test -n "$1"
 		then

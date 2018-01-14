@@ -44,7 +44,6 @@ fi
 exec 3>&1
  
 VALUES=$(dialog --ok-label "Cadastrar"				\
-	--backtitle "Linux User Managment"			\
 	--title "CADASTRAR"					\
 	--form "Entre com os dados a seguir:"			\
 	15 50 0							\
@@ -53,7 +52,7 @@ VALUES=$(dialog --ok-label "Cadastrar"				\
 	"Digite a senha novamente:" 3 1 "" 3 26 19 0		\
 	2>&1 1>&3)
 
-if [[ $? == 1 || $? == 255 ]]
+if [[ $? == "1" || $? == "255" ]]
                 then
 
                         opcao $1
@@ -155,7 +154,7 @@ TIPO_USER=$(dialog	--stdout					\
 		A 'Usuário Administrador'	on			\
 		B 'Usuário Comum'		off			)
 
-	if [[ $? == 1 || $? == 255 ]]
+	if [[ $? == "1" || $? == "255" ]]
 		then
 	
 			opcao $1
@@ -183,14 +182,15 @@ opcao $1
 
 	new_user $1
 
-	elif [[ $OPCAO == 4 ]]
+	elif [[ $OPCAO == "4" ]]
 		then
+			cd $dir
 			source menu.sh $1
 
 	else
 
 		dialog 							\
-			--title 'Erro'
+			--title 'Erro'					\
 			--msgbox 'Pressione [enter] para voltar.'	\
 			0 0
 
